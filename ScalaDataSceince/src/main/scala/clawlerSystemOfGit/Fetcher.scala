@@ -1,11 +1,12 @@
 package clawlerSystemOfGit
 
-import akka.actor.{Actor, Props}
+import akka.actor.{Actor, ActorLogging, Props}
 
 
-/**
-  * Created by hasegawahiroaki on 2017/08/08.
-  */
+import scala.concurrent.Future
+import scalaj.http.Http
+
+
 //Fetcherに送るメッセージとFetcherを登録する責務をもつ
 object Fetcher {
 
@@ -14,13 +15,43 @@ object Fetcher {
 
 //  ファクトリーパターンの容量で、propsを作成
   def props(token:Option[String]):Props=
-  Props(classOf[Fetch],token)
+  Props(classOf[Fetcher],token)
 
-  def props():Props=Props(classOf[Fetch],None)
+  def props():Props=Props(classOf[Fetcher],None)
 
 }
 
 
-class Fetcher(token:Option[String])extends Actor {
+//GitのApIを叩き、データを取得する
+class Fetcher(token:Option[String])extends Actor with ActorLogging{
+  import context.dispatcher
+  import clawlerSystemOfGit.Fetcher.Fetch
+
+
+//  受け取ったキューに従い実行
+  override def receive: Receive = {
+    case Fetch(login)=> fetchUrl(login)
+  }
+
+  private def fetchUrl(login:String)={
+    val unauthorizedRequest=Http(
+      s"https://api.github.com/users/$login/followers")
+
+//    headerにtokenを入れる
+    val authorizedRequest=token.map{t=>
+      unauthorizedRequest.header("Authorization", s"token $t")
+    }
+
+    val request =authorizedRequest.getOrElse(unauthorizedRequest)
+//    APIの実行
+
+
+    val response=Future{request.asString}
+
+    response.onComplete{r=>
+      log.info(s"Response from $login : $r")
+
+    }
+  }
 
 }
