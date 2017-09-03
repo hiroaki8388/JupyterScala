@@ -1,0 +1,267 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+21 items
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/ScalaHighPerformancePtorgaming/Price2$.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/ScalaHighPerformancePtorgaming/Price2.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/ScalaHighPerformancePtorgaming/ShareCount$.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/ScalaHighPerformancePtorgaming/ShareCount.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/ScalaHighPerformancePtorgaming/ShareCount2$.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/ScalaHighPerformancePtorgaming/ShareCount2.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Data$.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Data.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Data2$.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Data2.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Data3$.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Data3.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList$1.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList$2.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList2$1.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList2$2.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList3$1.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList3$2.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList4$1.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList4$2.class
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test.class
+binary dependencies:
+4 items
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> /Users/hasegawahiroaki/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> /Users/hasegawahiroaki/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+21 items
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> ScalaHighPerformancePtorgaming.Price2
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> ScalaHighPerformancePtorgaming.Price2$
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> ScalaHighPerformancePtorgaming.ShareCount
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> ScalaHighPerformancePtorgaming.ShareCount$
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> ScalaHighPerformancePtorgaming.ShareCount2
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> ScalaHighPerformancePtorgaming.ShareCount2$
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Data
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Data$
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Data2
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Data2$
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Data3
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Data3$
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Test
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Test$$anonfun$testList$1
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Test$$anonfun$testList$2
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Test$$anonfun$testList2$1
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Test$$anonfun$testList2$2
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Test$$anonfun$testList3$1
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Test$$anonfun$testList3$2
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Test$$anonfun$testList4$1
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning.Test$$anonfun$testList4$2
+used names:
+116 items
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> $this
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> &&
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> <
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> <init>
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> ==
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> A
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> AbstractFunction1
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> Any
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> AnyRef
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> AnyVal
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> Boolean
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> IndexOutOfBoundsException
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> Int
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> Iterator
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> Long
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> None
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> Nothing
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> Object
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> Predef
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> Price2
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> Product
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> ScalaHighPerformancePtorgaming
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> ScalaRunTime
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> Serializable
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> ShareCount
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> ShareCount2
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> Some
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> String
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> T
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> T0
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> _hashCode
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> _toString
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> asInstanceOf
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> eq
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> hashCode
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> isInstanceOf
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> isLowerThan$extension
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> num
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> package
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> price
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> runtime
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> scala
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> toString
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> typedProductIterator
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> value
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> ||
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> $this
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> &&
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> :+
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> ::
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> <byname>
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> <init>
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> ==
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> A
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> AbstractFunction1
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Any
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> AnyRef
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> AnyVal
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> B
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Boolean
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> CanBuildFrom
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Coll
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Data
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Data2
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Data3
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Function1
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> IndexOutOfBoundsException
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Int
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Iterator
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> List
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Long
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Nil
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> None
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Nothing
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Object
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Predef
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Product
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> ScalaRunTime
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Serializable
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Some
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Statics
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> String
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> T
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> T0
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> Test
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> That
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> TimeUnit
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> _toString
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> annotations
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> asInstanceOf
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> canBuildFrom
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> concurrent
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> eq
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> fill
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> finalizeHash
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> hashCode
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> i
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> immutable
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> isInstanceOf
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> java
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> jmh
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> longHash
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> map
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> mix
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> num
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> openjdk
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> org
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> package
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> perfomanceturning
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> runtime
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> scala
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> toLong
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> toString
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> typedProductIterator
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> util
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> ||
+product stamps:
+21 items
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/ScalaHighPerformancePtorgaming/Price2$.class -> lastModified(1504412116000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/ScalaHighPerformancePtorgaming/Price2.class -> lastModified(1504412116000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/ScalaHighPerformancePtorgaming/ShareCount$.class -> lastModified(1504412116000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/ScalaHighPerformancePtorgaming/ShareCount.class -> lastModified(1504412116000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/ScalaHighPerformancePtorgaming/ShareCount2$.class -> lastModified(1504412116000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/ScalaHighPerformancePtorgaming/ShareCount2.class -> lastModified(1504412116000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Data$.class -> lastModified(1504412982000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Data.class -> lastModified(1504412982000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Data2$.class -> lastModified(1504412983000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Data2.class -> lastModified(1504412983000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Data3$.class -> lastModified(1504412983000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Data3.class -> lastModified(1504412983000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList$1.class -> lastModified(1504412983000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList$2.class -> lastModified(1504412983000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList2$1.class -> lastModified(1504412983000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList2$2.class -> lastModified(1504412983000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList3$1.class -> lastModified(1504412983000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList3$2.class -> lastModified(1504412983000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList4$1.class -> lastModified(1504412983000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test$$anonfun$testList4$2.class -> lastModified(1504412983000)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/target/scala-2.11/classes/perfomanceturning/Test.class -> lastModified(1504412983000)
+source stamps:
+2 items
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> hash(f5c3c6c76de326f9fe2ec57d948d5edcd0f64016)
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> hash(935424b65a14f447aba9aef3e583c413ec94d646)
+binary stamps:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1481605174000)
+/Users/hasegawahiroaki/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> lastModified(1435004218000)
+class names:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/hasegawahiroaki/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.AnyVal
+internal apis:
+2 items
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwyybRpQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAic3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwxwDmfHQABm5vdGlmeXNxAH4ADP+T2jx0AAR3YWl0c3EAfgAM6YIhpXQADSRhc0luc3RhbmNlT2ZzcQB+AAxKUbwEdAAMcHJvZHVjdEFyaXR5c3EAfgAM5ZfZ1nQABmVxdWFsc3NxAH4ADKhVsVl0AAxhc0luc3RhbmNlT2ZzcQB+AAzyoSFodAAMc3luY2hyb25pemVkc3EAfgAM1MFKSXQADSRpc0luc3RhbmNlT2ZzcQB+AAyQe1HldAALaXNMb3dlclRoYW5zcQB+AAw/b5PIdAAIY2FuRXF1YWxzcQB+AAxARJKedAAGUHJpY2Uyc3EAfgAMyEIiCXQAClNoYXJlQ291bnRzcQB+AAwhgZY5dAANcHJvZHVjdFByZWZpeHNxAH4ADETZllx0AAlub3RpZnlBbGxzcQB+AAxvBE7WdAADbnVtc3EAfgAMcVooTXQADGlzSW5zdGFuY2VPZnNxAH4ADHHN6t90AAY8aW5pdD5zcQB+AAylhxlpdAACPT1zcQB+AAxUF++7dAAFY2xvbmVzcQB+AAzljtfadAAGJGluaXQkc3EAfgAMzyvL6HQAC1NoYXJlQ291bnQyc3EAfgAMh43tWHQABGNvcHlzcQB+AAwiYAvEdAAIdG9TdHJpbmdzcQB+AAy63QjZdAACIT1zcQB+AAwXVvXzdAAIZ2V0Q2xhc3NzcQB+AAzolhgedAAOY29weSRkZWZhdWx0JDFzcQB+AAwGU9AEdAACbmVzcQB+AAzRaYmQdAAFdmFsdWVzcQB+AAxWY6QEdAACZXFzcQB+AAyCNWkCdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAM2rt7q3QAAiMjc3EAfgAMQQoPg3QACGZpbmFsaXplc3EAfgAMIbllSHQADnByb2R1Y3RFbGVtZW50c3EAfgAM3mszaXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAA3NyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AW3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwBHQAJVNjYWxhSGlnaFBlcmZvcm1hbmNlUHRvcmdhbWluZy5QcmljZTJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4Ac3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBbTAAJaW5oZXJpdGVkcQB+AFtMAAdwYXJlbnRzcQB+AFt4cQB+AHhzcQB+AHN1cQB+AFYAAAAAc3EAfgBzdXEAfgBWAAAAAHNxAH4Ac3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAGc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ad3QADFNlcmlhbGl6YWJsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ad3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AkXNxAH4AhHEAfgCHc3EAfgCIc3EAfgCLdXEAfgCOAAAAA3NxAH4AkHQABGphdmFzcQB+AJB0AAJpb3EAfgCVc3EAfgCEdAAHUHJvZHVjdHEAfgCKc3EAfgCEdAAGRXF1YWxzcQB+AIpzcQB+AIR0AAZBbnlWYWxxAH4AinNxAH4AhHQAA0FueXEAfgCKc3EAfgBYcQB+AGV1cQB+AGYAAAAAc3EAfgBoAHQAKVNjYWxhSGlnaFBlcmZvcm1hbmNlUHRvcmdhbWluZy5TaGFyZUNvdW50dXEAfgBrAAAAAXNyABd4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcmdpVdvjcpBrAgAGWwALYW5ub3RhdGlvbnNxAH4AYEwAAmlkcQB+AA1MAApsb3dlckJvdW5kdAAQTHhzYnRpL2FwaS9UeXBlO1sADnR5cGVQYXJhbWV0ZXJzcQB+AF1MAAp1cHBlckJvdW5kcQB+AKxMAAh2YXJpYW5jZXQAFEx4c2J0aS9hcGkvVmFyaWFuY2U7eHB1cQB+AGYAAAAAdAArU2NhbGFIaWdoUGVyZm9ybWFuY2VQdG9yZ2FtaW5nLlNoYXJlQ291bnQuVHNxAH4AhHQAB05vdGhpbmdzcQB+AIhzcQB+AIt1cQB+AI4AAAACc3EAfgCQcQB+AJNxAH4AlXVxAH4AawAAAABzcQB+AIRxAH4ApXEAfgCzfnIAEnhzYnRpLmFwaS5WYXJpYW5jZQAAAAAAAAAAEgAAeHEAfgBudAAJSW52YXJpYW50cQB+AG91cQB+AHEAAAAAc3EAfgBzcQB+AHlzcQB+AHNzcQB+AHtzcQB+AHN1cQB+AFYAAAAAc3EAfgBzdXEAfgBWAAAAAHNxAH4Ac3VxAH4AggAAAAZzcQB+AIRxAH4Ah3NxAH4AiHNxAH4Ai3VxAH4AjgAAAAJzcQB+AJBxAH4Ak3EAfgCVc3EAfgCEcQB+AIdzcQB+AIhzcQB+AIt1cQB+AI4AAAADc3EAfgCQcQB+AJtzcQB+AJB0AAJpb3EAfgCVc3EAfgCEcQB+AJ9xAH4Ax3NxAH4AhHQABkVxdWFsc3EAfgDHc3EAfgCEdAAGT2JqZWN0c3EAfgCIc3EAfgCLdXEAfgCOAAAAA3NxAH4AkHEAfgCbc3EAfgCQdAAEbGFuZ3EAfgCVc3EAfgCEcQB+AKVxAH4Ax3NxAH4AWHEAfgBldXEAfgBmAAAAAHNxAH4AaAB0ACpTY2FsYUhpZ2hQZXJmb3JtYW5jZVB0b3JnYW1pbmcuU2hhcmVDb3VudDJ1cQB+AGsAAAABc3EAfgCrdXEAfgBmAAAAAHQALFNjYWxhSGlnaFBlcmZvcm1hbmNlUHRvcmdhbWluZy5TaGFyZUNvdW50Mi5UcQB+ALF1cQB+AGsAAAAAcQB+ALhxAH4AunEAfgBvdXEAfgBxAAAAAHNxAH4Ac3EAfgB5c3EAfgBzc3EAfgB7c3EAfgBzdXEAfgBWAAAAAHNxAH4Ac3VxAH4AVgAAAABzcQB+AHN1cQB+AIIAAAAGc3EAfgCEcQB+AIdzcQB+AIhzcQB+AIt1cQB+AI4AAAACc3EAfgCQcQB+AJNxAH4AlXNxAH4AhHEAfgCHc3EAfgCIc3EAfgCLdXEAfgCOAAAAA3NxAH4AkHEAfgCbc3EAfgCQdAACaW9xAH4AlXNxAH4AhHEAfgCfcQB+APJzcQB+AIR0AAZFcXVhbHNxAH4A8nNxAH4AhHEAfgDWc3EAfgCIc3EAfgCLdXEAfgCOAAAAA3NxAH4AkHEAfgCbc3EAfgCQcQB+ANxxAH4AlXNxAH4AhHEAfgClcQB+APJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AB5TY2FsYUhpZ2hQZXJmb3JtYW5jZVB0b3JnYW1pbmdzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV5F8tBJdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAUC9Vc2Vycy9oYXNlZ2F3YWhpcm9ha2kvU2NhbGFKdXB5dGVyL1BlcmZvcm1hbmNlVHVybmluZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU9cPGx23jJvn+LsV9lI1e3ND2QBY=
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwvmQCyAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAlc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwnWVuqHQABm5vdGlmeXNxAH4ADOtDRER0AAl0ZXN0TGlzdDNzcQB+AAzPaYAjdAAFRGF0YTJzcQB+AAy4p+VxdAAEd2FpdHNxAH4ADF0NHop0AA0kYXNJbnN0YW5jZU9mc3EAfgAMuTjcS3QADHByb2R1Y3RBcml0eXNxAH4ADPZzjDV0AAZlcXVhbHNzcQB+AAzDswUVdAAMYXNJbnN0YW5jZU9mc3EAfgAMzqf4ynQACXRlc3RMaXN0NHNxAH4ADA2XE+l0AAxzeW5jaHJvbml6ZWRzcQB+AAznfvlgdAANJGlzSW5zdGFuY2VPZnNxAH4ADI8ocAV0AAhjYW5FcXVhbHNxAH4ADE8KSjR0AA1wcm9kdWN0UHJlZml4c3EAfgAM06f4t3QACW5vdGlmeUFsbHNxAH4ADHg7fVl0AAh0ZXN0TGlzdHNxAH4ADBXAdwZ0AANudW1zcQB+AAyR3jwZdAAMaXNJbnN0YW5jZU9mc3EAfgAMES9fpnQABjxpbml0PnNxAH4ADCIg1Bt0AAI9PXNxAH4ADN7Ar1Z0AAVjbG9uZXNxAH4ADG+yBUV0AAYkaW5pdCRzcQB+AAye5ezVdAAFRGF0YTNzcQB+AAxiVa1OdAAEY29weXNxAH4ADMrz9+R0AARUZXN0c3EAfgAMqj24ynQACHRvU3RyaW5nc3EAfgAMo67UlHQAAiE9c3EAfgAMo+zgLHQACGdldENsYXNzc3EAfgAMFcFAs3QADmNvcHkkZGVmYXVsdCQxc3EAfgAMkPnfEHQACXRlc3RMaXN0MnNxAH4ADJIcUS10AAJuZXNxAH4ADGpLQnJ0AAREYXRhc3EAfgAMuwxZr3QAAmVxc3EAfgAM/5fkQXQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADHe/D+h0AAIjI3NxAH4ADCurZFd0AAhmaW5hbGl6ZXNxAH4ADKU2cHN0AA5wcm9kdWN0RWxlbWVudHNxAH4ADJV150p0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAARzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAAVzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNldAAQTHhzYnRpL2FwaS9UeXBlO3hwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AA1MAAV2YWx1ZXEAfgANeHB0AAV2YWx1ZXQAB1NFQ09ORFNzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwdAAOT3V0cHV0VGltZVVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHpzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAVzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAA29yZ3NxAH4AhnQAB29wZW5qZGtzcQB+AIZ0AANqbWhzcQB+AIZ0AAthbm5vdGF0aW9uc3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCHc3EAfgBudXEAfgByAAAAAnNxAH4AdHQACml0ZXJhdGlvbnN0AAEzc3EAfgB0dAAIdGltZVVuaXR0AAdTRUNPTkRTc3EAfgB4dAAGV2FybXVwcQB+AIBzcQB+AG51cQB+AHIAAAACc3EAfgB0dAAKaXRlcmF0aW9uc3QAATNzcQB+AHR0AAh0aW1lVW5pdHQAB1NFQ09ORFNzcQB+AHh0AAtNZWFzdXJlbWVudHEAfgCAc3EAfgBudXEAfgByAAAAAnNxAH4AdHEAfgB2dAABMXNxAH4AdHQAB2p2bUFyZ3N0ABRbIi1YbXMxRyIsICItWG14MUciXXNxAH4AeHQABEZvcmtxAH4AgHNxAH4AbnVxAH4AcgAAAAFzcQB+AHRxAH4AdnQAATFzcQB+AHh0AAdUaHJlYWRzcQB+AIBzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABZwZXJmb21hbmNldHVybmluZy5UZXN0dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAlb3JnLm9wZW5qZGsuam1oLmFubm90YXRpb25zLkJlbmNobWFya3NyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHEAfgB6c3EAfgDBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGFMAAlpbmhlcml0ZWRxAH4AYUwAB3BhcmVudHNxAH4AYXhxAH4Ae3NxAH4AwXVxAH4AXAAAAABzcQB+AMF1cQB+AFwAAAAAc3EAfgDBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcQB+AHh0AAZPYmplY3RzcQB+AH5zcQB+AIF1cQB+AIQAAAADc3EAfgCGdAAEamF2YXNxAH4AhnQABGxhbmdxAH4AkXNxAH4AeHQAA0FueXNxAH4AfnNxAH4AgXVxAH4AhAAAAAJzcQB+AIZ0AAVzY2FsYXEAfgCRc3EAfgBecQB+AGt1cQB+AGwAAAAAc3EAfgC1AHQAFnBlcmZvbWFuY2V0dXJuaW5nLkRhdGF1cQB+ALgAAAAAcQB+ALx1cQB+AL4AAAAAc3EAfgDBcQB+AMVzcQB+AMFzcQB+AMdzcQB+AMF1cQB+AFwAAAAAc3EAfgDBdXEAfgBcAAAAAHNxAH4AwXVxAH4AzgAAAAZzcQB+AHh0AAxTZXJpYWxpemFibGVzcQB+AH5zcQB+AIF1cQB+AIQAAAACc3EAfgCGcQB+AN9xAH4AkXNxAH4AeHEAfgDwc3EAfgB+c3EAfgCBdXEAfgCEAAAAA3NxAH4AhnEAfgDWc3EAfgCGdAACaW9xAH4AkXNxAH4AeHQAB1Byb2R1Y3RxAH4A8XNxAH4AeHQABkVxdWFsc3EAfgDxc3EAfgB4cQB+ANFzcQB+AH5zcQB+AIF1cQB+AIQAAAADc3EAfgCGcQB+ANZzcQB+AIZxAH4A2HEAfgCRc3EAfgB4cQB+ANpxAH4A8XNxAH4AXnEAfgBrdXEAfgBsAAAAAHNxAH4AtQR0ABdwZXJmb21hbmNldHVybmluZy5EYXRhMnVxAH4AuAAAAABxAH4AvHVxAH4AvgAAAABzcQB+AMFxAH4AxXNxAH4AwXNxAH4Ax3NxAH4AwXVxAH4AXAAAAABzcQB+AMF1cQB+AFwAAAAAc3EAfgDBdXEAfgDOAAAABnNxAH4AeHEAfgDwc3EAfgB+c3EAfgCBdXEAfgCEAAAAAnNxAH4AhnEAfgDfcQB+AJFzcQB+AHhxAH4A8HNxAH4AfnNxAH4AgXVxAH4AhAAAAANzcQB+AIZxAH4A1nNxAH4AhnQAAmlvcQB+AJFzcQB+AHhxAH4A/XEAfgEXc3EAfgB4dAAGRXF1YWxzcQB+ARdzcQB+AHh0AAZBbnlWYWxxAH4BF3NxAH4AeHEAfgDacQB+ARdzcQB+AF5xAH4Aa3VxAH4AbAAAAABzcQB+ALUAdAAXcGVyZm9tYW5jZXR1cm5pbmcuRGF0YTN1cQB+ALgAAAAAcQB+ALx1cQB+AL4AAAAAc3EAfgDBcQB+AMVzcQB+AMFzcQB+AMdzcQB+AMF1cQB+AFwAAAAAc3EAfgDBdXEAfgBcAAAAAHNxAH4AwXVxAH4AzgAAAAZzcQB+AHhxAH4A8HNxAH4AfnNxAH4AgXVxAH4AhAAAAAJzcQB+AIZxAH4A33EAfgCRc3EAfgB4cQB+APBzcQB+AH5zcQB+AIF1cQB+AIQAAAADc3EAfgCGcQB+ANZzcQB+AIZ0AAJpb3EAfgCRc3EAfgB4cQB+AP1xAH4BOHNxAH4AeHQABkVxdWFsc3EAfgE4c3EAfgB4cQB+ANFzcQB+AH5zcQB+AIF1cQB+AIQAAAADc3EAfgCGcQB+ANZzcQB+AIZxAH4A2HEAfgCRc3EAfgB4cQB+ANpxAH4BOHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAEXBlcmZvbWFuY2V0dXJuaW5nc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFeRgAQ0HVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFAvVXNlcnMvaGFzZWdhd2FoaXJvYWtpL1NjYWxhSnVweXRlci9QZXJmb3JtYW5jZVR1cm5pbmcvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFJNUJLZaFPRHq6mu8+WDxBPslNZG
+external apis:
+0 items
+source infos:
+2 items
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/ScalaHighPerformancePtorgaming/Chapter3.scala -> 
+AAAAAAAAAAA=
+/Users/hasegawahiroaki/ScalaJupyter/PerformanceTurning/src/main/scala/Test.scala -> 
+AAAAAAAAAAA=
+compilations:
+10 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXkIBi+x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9Vc2Vycy9oYXNlZ2F3YWhpcm9ha2kvU2NhbGFKdXB5dGVyL1BlcmZvcm1hbmNlVHVybmluZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXkMYwNh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9Vc2Vycy9oYXNlZ2F3YWhpcm9ha2kvU2NhbGFKdXB5dGVyL1BlcmZvcm1hbmNlVHVybmluZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXkMuc5N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9Vc2Vycy9oYXNlZ2F3YWhpcm9ha2kvU2NhbGFKdXB5dGVyL1BlcmZvcm1hbmNlVHVybmluZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXkNNX3h1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9Vc2Vycy9oYXNlZ2F3YWhpcm9ha2kvU2NhbGFKdXB5dGVyL1BlcmZvcm1hbmNlVHVybmluZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXkNUkWV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9Vc2Vycy9oYXNlZ2F3YWhpcm9ha2kvU2NhbGFKdXB5dGVyL1BlcmZvcm1hbmNlVHVybmluZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXkNW6NJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9Vc2Vycy9oYXNlZ2F3YWhpcm9ha2kvU2NhbGFKdXB5dGVyL1BlcmZvcm1hbmNlVHVybmluZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXkXy0El1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9Vc2Vycy9oYXNlZ2F3YWhpcm9ha2kvU2NhbGFKdXB5dGVyL1BlcmZvcm1hbmNlVHVybmluZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+7 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXkXz7it1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9Vc2Vycy9oYXNlZ2F3YWhpcm9ha2kvU2NhbGFKdXB5dGVyL1BlcmZvcm1hbmNlVHVybmluZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+8 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXkX8DvN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9Vc2Vycy9oYXNlZ2F3YWhpcm9ha2kvU2NhbGFKdXB5dGVyL1BlcmZvcm1hbmNlVHVybmluZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+9 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXkYAENB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUC9Vc2Vycy9oYXNlZ2F3YWhpcm9ha2kvU2NhbGFKdXB5dGVyL1BlcmZvcm1hbmNlVHVybmluZy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
