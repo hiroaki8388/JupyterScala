@@ -3,6 +3,8 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
+inline,ScalaHighPerformancePtorgaming/SpecializationBenchmark.boxed
+inline,ScalaHighPerformancePtorgaming/SpecializationBenchmark.specialized
 inline,org/openjdk/jmh/infra/Blackhole.clearSinks
 inline,perfomanceturning/Test.testList
 inline,perfomanceturning/Test.testList2
