@@ -4,7 +4,7 @@
 		module="performanceturning$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170910151720"
+		publication="20170918150045"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

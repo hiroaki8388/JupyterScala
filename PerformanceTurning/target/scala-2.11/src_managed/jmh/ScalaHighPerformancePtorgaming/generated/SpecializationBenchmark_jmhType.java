@@ -1,4 +1,0 @@
-package ScalaHighPerformancePtorgaming.generated;
-public class SpecializationBenchmark_jmhType extends SpecializationBenchmark_jmhType_B3 {
-}
-

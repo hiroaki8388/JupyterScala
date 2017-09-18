@@ -1,1 +1,61 @@
 [0m[[0mdebug[0m] [0mjavaOptions: List()[0m
+[0m[[0minfo[0m] [0mRunning org.openjdk.jmh.Main ScalaHighPerformancePtorgaming.Specialized*[0m
+[0m[[0minfo[0m] [0m# JMH 1.11.3 (released 613 days ago, please consider updating!)[0m
+[0m[[0minfo[0m] [0m# VM version: JDK 1.8.0_121, VM 25.121-b13[0m
+[0m[[0minfo[0m] [0m# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/bin/java[0m
+[0m[[0minfo[0m] [0m# VM options: -Xms1G -Xmx1G[0m
+[0m[[0minfo[0m] [0m# Warmup: 3 iterations, 1 s each[0m
+[0m[[0minfo[0m] [0m# Measurement: 3 iterations, 1 s each[0m
+[0m[[0minfo[0m] [0m# Timeout: 10 min per iteration[0m
+[0m[[0minfo[0m] [0m# Threads: 1 thread, will synchronize iterations[0m
+[0m[[0minfo[0m] [0m# Benchmark mode: Throughput, ops/time[0m
+[0m[[0minfo[0m] [0m# Benchmark: ScalaHighPerformancePtorgaming.Specialized.testList[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m# Run progress: 0.00% complete, ETA 00:00:12[0m
+[0m[[0minfo[0m] [0m# Fork: 1 of 1[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   1: 24.185 ops/s[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   2: 71.879 ops/s[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   3: 91.814 ops/s[0m
+[0m[[0minfo[0m] [0mIteration   1: 28.715 ops/s[0m
+[0m[[0minfo[0m] [0mIteration   2: 125.780 ops/s[0m
+[0m[[0minfo[0m] [0mIteration   3: 133.292 ops/s[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mResult "testList":[0m
+[0m[[0minfo[0m] [0m  95.929 ?(99.9%) 1064.152 ops/s [Average][0m
+[0m[[0minfo[0m] [0m  (min, avg, max) = (28.715, 95.929, 133.292), stdev = 58.330[0m
+[0m[[0minfo[0m] [0m  CI (99.9%): [? 0, 1160.082] (assumes normal distribution)[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m# JMH 1.11.3 (released 613 days ago, please consider updating!)[0m
+[0m[[0minfo[0m] [0m# VM version: JDK 1.8.0_121, VM 25.121-b13[0m
+[0m[[0minfo[0m] [0m# VM invoker: /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/bin/java[0m
+[0m[[0minfo[0m] [0m# VM options: -Xms1G -Xmx1G[0m
+[0m[[0minfo[0m] [0m# Warmup: 3 iterations, 1 s each[0m
+[0m[[0minfo[0m] [0m# Measurement: 3 iterations, 1 s each[0m
+[0m[[0minfo[0m] [0m# Timeout: 10 min per iteration[0m
+[0m[[0minfo[0m] [0m# Threads: 1 thread, will synchronize iterations[0m
+[0m[[0minfo[0m] [0m# Benchmark mode: Throughput, ops/time[0m
+[0m[[0minfo[0m] [0m# Benchmark: ScalaHighPerformancePtorgaming.Specialized.testList2[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m# Run progress: 50.00% complete, ETA 00:00:07[0m
+[0m[[0minfo[0m] [0m# Fork: 1 of 1[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   1: 15.971 ops/s[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   2: 58.399 ops/s[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   3: 118.425 ops/s[0m
+[0m[[0minfo[0m] [0mIteration   1: 125.141 ops/s[0m
+[0m[[0minfo[0m] [0mIteration   2: 113.364 ops/s[0m
+[0m[[0minfo[0m] [0mIteration   3: 134.844 ops/s[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mResult "testList2":[0m
+[0m[[0minfo[0m] [0m  124.449 ?(99.9%) 196.243 ops/s [Average][0m
+[0m[[0minfo[0m] [0m  (min, avg, max) = (113.364, 124.449, 134.844), stdev = 10.757[0m
+[0m[[0minfo[0m] [0m  CI (99.9%): [? 0, 320.693] (assumes normal distribution)[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m# Run complete. Total time: 00:00:15[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mBenchmark                                              Mode  Cnt    Score      Error  Units[0m
+[0m[[0minfo[0m] [0mScalaHighPerformancePtorgaming.Specialized.testList   thrpt    3   95.929 ? 1064.152  ops/s[0m
+[0m[[0minfo[0m] [0mScalaHighPerformancePtorgaming.Specialized.testList2  thrpt    3  124.449 ?  196.243  ops/s[0m

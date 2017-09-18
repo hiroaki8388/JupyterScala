@@ -4,7 +4,7 @@
 		module="performanceturning-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170902185207"
+		publication="20170918211157"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

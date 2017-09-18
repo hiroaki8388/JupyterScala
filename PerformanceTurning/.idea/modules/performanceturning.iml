@@ -31,12 +31,12 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: net.sf.jopt-simple:jopt-simple:4.6:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.7:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.openjdk.jmh:jmh-generator-reflection:1.11.3:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.openjdk.jmh:jmh-generator-bytecode:1.11.3:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.openjdk.jmh:jmh-generator-asm:1.11.3:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.openjdk.jmh:jmh-core:1.11.3:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.ow2.asm:asm:5.0.3:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.commons:commons-math3:3.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.ow2.asm:asm:5.0.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.openjdk.jmh:jmh-core:1.11.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.openjdk.jmh:jmh-generator-asm:1.11.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.openjdk.jmh:jmh-generator-bytecode:1.11.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.openjdk.jmh:jmh-generator-reflection:1.11.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.7:jar" level="project" />
   </component>
 </module>

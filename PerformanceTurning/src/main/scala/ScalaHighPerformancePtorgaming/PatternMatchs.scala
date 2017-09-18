@@ -4,6 +4,8 @@ import java.util.concurrent.TimeUnit
 
 import org.openjdk.jmh.annotations._
 
+import scala.annotation.switch
+
 
 
 class PatternMatchState {
@@ -25,7 +27,10 @@ class PatternMatchingBenchmarks {
   case class ExpensiveFoo(value: Int)
 
   @Benchmark
-  def matchIntLiterals(i: PatternMatchState): Int = i.matchIndex match {
+  def matchIntLiterals(i: PatternMatchState): Int =
+
+    i.matchIndex match {
+
     case 1 => 1
     case 2 => 2
     case 3 => 3
@@ -39,6 +44,7 @@ class PatternMatchingBenchmarks {
   }
 
   @Benchmark
+  @switch
   def matchIntVariables(ii: PatternMatchState): Int = ii.matchIndex match {
     case `a` => 1
     case `b` => 2
@@ -68,6 +74,7 @@ class PatternMatchingBenchmarks {
 
   @Benchmark
   def matchCaseClass(i: PatternMatchState): Int =
+
     ExpensiveFoo(i.matchIndex) match {
       case ExpensiveFoo(1) => 1
       case ExpensiveFoo(2) => 2
