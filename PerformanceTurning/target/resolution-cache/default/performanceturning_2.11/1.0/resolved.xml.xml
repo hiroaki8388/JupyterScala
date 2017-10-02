@@ -4,7 +4,7 @@
 		module="performanceturning_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170902185230"
+		publication="20171002224013"
 	>
 		<description>
 		PerformanceTurning
@@ -38,5 +38,9 @@
 		<dependency org="org.openjdk.jmh" name="jmh-core" rev="1.11.3" conf="compile->default(compile)"/>
 		<dependency org="org.openjdk.jmh" name="jmh-generator-bytecode" rev="1.11.3" conf="compile->default(compile)"/>
 		<dependency org="org.openjdk.jmh" name="jmh-generator-reflection" rev="1.11.3" conf="compile->default(compile)"/>
+		<dependency org="org.scalaz" name="scalaz-core_2.11" rev="7.1.0" conf="compile->default(compile)"/>
+		<dependency org="org.scalaz" name="scalaz-effect_2.11" rev="7.1.0" conf="compile->default(compile)"/>
+		<dependency org="org.scalaz" name="scalaz-typelevel_2.11" rev="7.1.0" conf="compile->default(compile)"/>
+		<dependency org="org.scalaz" name="scalaz-scalacheck-binding_2.11" rev="7.1.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
