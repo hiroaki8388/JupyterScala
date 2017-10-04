@@ -1,34 +1,59 @@
 package ScalaHighPerformancePtorgaming
 
+
+
 import java.util.concurrent.TimeUnit
 
+import ScalaHighPerformancePtorgaming.OptionCreationBenchmarks.ShareCount
 import org.openjdk.jmh.annotations._
 
-/**
-  * Created by hasegawahiroaki on 2017/09/18.
-  */
-//アウトプットの単位
-@OutputTimeUnit(TimeUnit.SECONDS)
-// ウォームアップの設定
-@Warmup(iterations = 3, timeUnit = TimeUnit.SECONDS)
-// 計測回数の設定
-@Measurement(iterations = 3, timeUnit = TimeUnit.SECONDS)
-// 全体の計測回数（-Xms1Gは使用するメモリ）
-@Fork(value = 1, jvmArgs = Array("-Xms1G", "-Xmx1G"))
-// 使用するスレッド数
-@Threads(value = 1)
-class Specialized {
+import scalaz.{@@, Tag}
 
-  @Benchmark
-  def testList() = List.fill(100000)(2) map (i => Data(i) :: Nil)
+sealed trait Opt
 
-  @Benchmark
-  def testList2() = List.fill(100000)(2) map (i => Data(i) :: Nil)
+object OptOps {
 
+  def some[@specialized A](x: A): A @@ Opt = Tag(x)
+  def nullCheckingSome[@specialized A](x: A): A @@ Opt =
+    if (x == null) sys.error("Null values disallowed") else Tag(x)
+  def none[A]: A @@ Opt = Tag(null.asInstanceOf[A])
+
+  def isSome[A](o: A @@ Opt): Boolean = o != null
+  def isEmpty[A](o: A @@ Opt): Boolean = !isSome(o)
+
+  def unsafeGet[A](o: A @@ Opt): A =
+    if (isSome(o)) o.asInstanceOf[A] else sys.error("Cannot get None")
+
+  def fold[A, B](o: A @@ Opt)(ifEmpty: => B)(f: A => B): B =
+    if (o == null) ifEmpty else f(o.asInstanceOf[A])
 }
-//Value Classとして定義する事で、プリミティブ型と同等に扱われる
-case class Data(num: Long) extends AnyVal
 
-//boxingされなくなる
-// https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%BC%E3%83%88%E3%83%9C%E3%82%AF%E3%82%B7%E3%83%B3%E3%82%B0
-case class Data2(@specialized num: Long)
+@OutputTimeUnit(TimeUnit.SECONDS)
+@Warmup(iterations = 3, timeUnit = TimeUnit.SECONDS)
+@Measurement(iterations = 3, timeUnit = TimeUnit.SECONDS)
+class OptionCreationBenchmarks {
+
+  @Benchmark
+  def scalaSome(): Option[ShareCount] = Some(ShareCount(1))
+
+  @Benchmark
+  def scalaNone(): Option[ShareCount] = None
+
+  @Benchmark
+  def optSome(): ShareCount @@ Opt = OptOps.some(ShareCount(1))
+
+  @Benchmark
+  def optSomeWithNullChecking(): ShareCount @@ Opt =
+    OptOps.nullCheckingSome(ShareCount(1))
+
+  @Benchmark
+  def optNone(): ShareCount @@ Opt = OptOps.none
+
+  //  @Benchmark
+  //  def optNoneReuse(): ShareCount @@ Opt = noShares
+}
+
+object OptionCreationBenchmarks {
+  case class ShareCount(value: Long) extends AnyVal
+  val noShares: ShareCount @@ Opt = OptOps.none
+}

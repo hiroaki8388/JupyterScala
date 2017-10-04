@@ -4,7 +4,7 @@
 		module="scaladatasceince$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170808163735"
+		publication="20170817142617"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

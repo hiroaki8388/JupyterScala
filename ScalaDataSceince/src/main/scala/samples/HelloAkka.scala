@@ -30,4 +30,26 @@ object HelloAkka extends App {
   // then shut the system down to terminate the program
   Thread.sleep(500)
   system.shutdown
+
+
+  val scores = Map(
+    "ichiro" -> Map("math"->82, "english"->99),
+    "jiro" -> Map("japanese"->100, "social"->88),
+    "saburo" -> Map("math"->76, "english"->80),
+    "shiro" -> Map("math" -> 99, "social" -> 81),
+    "hanako" -> Map("math"->84, "english"->78, "social"->66))
+
+  val a=scores.flatMap { case (name, score) =>
+    score.get(“math”).flatMap { ma =>
+    score.get(“english”).flatMap { en =>
+    val avg = (ma + en) / 2
+    if(avg >= 80) Some(name -> avg) else None
+  }
+  }
+  }
+
+  val b=scores.flatMap { case (name, score) =>
+    score.get("math")}
+
+
 }

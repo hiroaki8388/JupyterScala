@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170808163735"/>
+		date="20170817142617"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
 			<revision name="2.3.12" status="release" pubdate="20150709145835" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
@@ -18,7 +18,7 @@
 					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="2792073" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.12.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.12/akka-actor_2.11-2.3.12.jar"/>
 					</artifact>
-					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="336298" time="1832" location="/Users/hasegawahiroaki/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.3.12-sources.jar">
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="336298" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.3.12-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.12/akka-actor_2.11-2.3.12-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -48,7 +48,7 @@
 					<artifact name="scalaj-http_2.11" type="jar" ext="jar" status="no" details="" size="105760" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.scalaj/scalaj-http_2.11/jars/scalaj-http_2.11-1.1.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.11/1.1.4/scalaj-http_2.11-1.1.4.jar"/>
 					</artifact>
-					<artifact name="scalaj-http_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11992" time="2067" location="/Users/hasegawahiroaki/.ivy2/cache/org.scalaj/scalaj-http_2.11/srcs/scalaj-http_2.11-1.1.4-sources.jar">
+					<artifact name="scalaj-http_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11992" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.scalaj/scalaj-http_2.11/srcs/scalaj-http_2.11-1.1.4-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.11/1.1.4/scalaj-http_2.11-1.1.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -63,7 +63,7 @@
 					<artifact name="json4s-native_2.11" type="jar" ext="jar" status="no" details="" size="67120" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.json4s/json4s-native_2.11/jars/json4s-native_2.11-3.2.10.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.10/json4s-native_2.11-3.2.10.jar"/>
 					</artifact>
-					<artifact name="json4s-native_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="7356" time="1592" location="/Users/hasegawahiroaki/.ivy2/cache/org.json4s/json4s-native_2.11/srcs/json4s-native_2.11-3.2.10-sources.jar">
+					<artifact name="json4s-native_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7356" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.json4s/json4s-native_2.11/srcs/json4s-native_2.11-3.2.10-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json4s/json4s-native_2.11/3.2.10/json4s-native_2.11-3.2.10-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -153,7 +153,7 @@
 					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4422519" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0.jar"/>
 					</artifact>
-					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="554963" time="2296" location="/Users/hasegawahiroaki/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.0-sources.jar">
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="554963" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0-sources.jar"/>
 					</artifact>
 				</artifacts>

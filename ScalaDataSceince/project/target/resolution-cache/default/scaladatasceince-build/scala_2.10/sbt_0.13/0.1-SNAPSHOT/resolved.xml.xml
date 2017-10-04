@@ -4,7 +4,7 @@
 		module="scaladatasceince-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170808160115"
+		publication="20170808184122"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
