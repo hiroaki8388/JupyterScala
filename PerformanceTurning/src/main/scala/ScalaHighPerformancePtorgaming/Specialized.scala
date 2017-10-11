@@ -26,6 +26,8 @@ object OptOps {
 
   def fold[A, B](o: A @@ Opt)(ifEmpty: => B)(f: A => B): B =
     if (o == null) ifEmpty else f(o.asInstanceOf[A])
+
+  Math.exp
 }
 
 @OutputTimeUnit(TimeUnit.SECONDS)

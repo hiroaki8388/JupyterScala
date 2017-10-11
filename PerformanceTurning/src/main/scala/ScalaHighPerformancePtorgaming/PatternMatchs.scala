@@ -4,6 +4,8 @@ import java.util.concurrent.TimeUnit
 
 import org.openjdk.jmh.annotations._
 
+import scalaz.xml.pp.Config
+
 //アウトプットの単位
 @OutputTimeUnit(TimeUnit.SECONDS)
 // ウォームアップの設定
@@ -64,4 +66,104 @@ class SpeedChallenge {
   def measurement = {
     baseValidate(targetString)
   }
+}
+
+import scala
+.util.Try
+
+trait ITransform[T,A]{ // T:インプットする特徴量のデータ,A:アウトプットされるデータ
+  self=>
+  def |> :PartialFunction[T,Try[A]] // データのバリデーションを行うメソッド
+  def map[B](f: A => B): ITransform[T,B] = new ITransform[T,B] {
+    override def |> : PartialFunction[T, Try[B]] = //3
+      new PartialFunction[T, Try[B]] {     //4
+      override def isDefinedAt(t: T): Boolean =  //5
+      self.|>.isDefinedAt(t)
+        override def apply(t: T): Try[B] = self.|>(t).map(f) //6
+      }}
+
+  def flatMap[B](
+                  f: A => ITransform[T, B] //7
+                ): ITransform[T, B] = new ITransform[T, B] { //8
+
+    override def |> : PartialFunction[T, Try[B]] =
+      new PartialFunction[T, Try[B]] { //9
+      override def isDefinedAt(t: T): Boolean =
+      self.|>.isDefinedAt(t)
+        override def apply(t: T): Try[B] =
+          self.|>(t).flatMap(f(_).|>(t))
+      }}
+
+    def andThen[B](
+                    tr: ITransform[A, B]
+    ): ITransform[T, B] = new ITransform[T, B] {
+
+      override def |> : PartialFunction[T, Try[B]] =
+        new PartialFunction[T, Try[B]] {
+          override def isDefinedAt(t: T): Boolean =
+            self.|>.isDefinedAt(t) &&
+              tr.|>.isDefinedAt(self.|>(t).get)
+          override def apply(t: T):Try[B] = tr.|>(self.|>(t).get)
+        }
+
+}}
+
+//abstract class ETransform[T,A](config:Config) extends ITransform[T,A]{
+//  self =>
+//  override def map[B](f:A=>B):ETransform[T,B]=new ETransform[T,B](config){
+//    override def |> = super.|>
+//  }
+//
+//  def flatMap[B](f:A=>ETransform[T,B]):ETransform[T,B]=new ETransform[T,B](config){
+//    override def |>  = super.|>
+//  }
+//
+//  override  def andThen[B](tr:ITransform[A,B]):ETransform[T,B]= new ETransform[T,B](config){
+//    override def |>  = super.|>
+//  }
+//}
+
+
+//abstract class ETransform[T,A]( //11
+//                                config: Config//12
+//                              ) extends ITransform[T,A] {  //13
+//  self =>
+//  override def map[B](f: A => B): ETransform[T,B] =
+//    new ETransform[T,B](config) {
+//      override def |> : PartialFunction[T, Try[B]] = |>
+//    }
+//
+//  override  def flatMap[B](f: A => ITransform[T,B]): ETransform[T,B] =
+//    new ETransform[T, B](config) {
+//      override def |> : PartialFunction[T, Try[B]] = super.|>
+//    }
+//
+//  def andThen[B](tr: ETransform[A,B]): ETransform[T,B] =
+//    new ETransform[T, B](config) {
+//      override def|> :PartialFunction[T, Try[B]] = super.|>
+//    }
+//}
+
+
+trait ETransform[T,A] extends ITransform[T,A] {
+  self =>
+  val config:Config
+
+  override def map[B](f: A => B): ETransform[T,B] =
+    new ETransform[T,B]{
+      val config:Config=config
+      abstract  override def |> : PartialFunction[T, Try[B]] = super.|>
+    }
+
+  override  def flatMap[B](f: A => ITransform[T,B]): ETransform[T,B] =
+    new ETransform[T, B] {
+      val config:Config=config
+      abstract  override def |> : PartialFunction[T, Try[B]] =  super.|>
+    }
+
+  def andThen[B](tr: ETransform[A,B]): ETransform[T,B] =
+    new ETransform[T, B]{
+      val config:Config=config
+      abstract  override def |> :PartialFunction[T, Try[B]] =  super.|>
+    }
 }
