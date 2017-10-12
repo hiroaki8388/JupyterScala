@@ -3,10 +3,12 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
-inline,ScalaHighPerformancePtorgaming/SpecializationBenchmark.boxed
-inline,ScalaHighPerformancePtorgaming/SpecializationBenchmark.specialized
-inline,ScalaHighPerformancePtorgaming/Specialized.testList
-inline,ScalaHighPerformancePtorgaming/Specialized.testList2
+inline,ScalaHighPerformancePtorgaming/OptionCreationBenchmarks.optNone
+inline,ScalaHighPerformancePtorgaming/OptionCreationBenchmarks.optSome
+inline,ScalaHighPerformancePtorgaming/OptionCreationBenchmarks.optSomeWithNullChecking
+inline,ScalaHighPerformancePtorgaming/OptionCreationBenchmarks.scalaNone
+inline,ScalaHighPerformancePtorgaming/OptionCreationBenchmarks.scalaSome
+inline,ScalaHighPerformancePtorgaming/SpeedChallenge.measurement
 inline,org/openjdk/jmh/infra/Blackhole.clearSinks
 inline,perfomanceturning/Test.testList
 inline,perfomanceturning/Test.testList2

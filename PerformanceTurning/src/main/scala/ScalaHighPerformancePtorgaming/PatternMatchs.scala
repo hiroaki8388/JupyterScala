@@ -145,25 +145,3 @@ trait ITransform[T,A]{ // T:インプットする特徴量のデータ,A:アウ�
 //}
 
 
-trait ETransform[T,A] extends ITransform[T,A] {
-  self =>
-  val config:Config
-
-  override def map[B](f: A => B): ETransform[T,B] =
-    new ETransform[T,B]{
-      val config:Config=config
-      abstract  override def |> : PartialFunction[T, Try[B]] = super.|>
-    }
-
-  override  def flatMap[B](f: A => ITransform[T,B]): ETransform[T,B] =
-    new ETransform[T, B] {
-      val config:Config=config
-      abstract  override def |> : PartialFunction[T, Try[B]] =  super.|>
-    }
-
-  def andThen[B](tr: ETransform[A,B]): ETransform[T,B] =
-    new ETransform[T, B]{
-      val config:Config=config
-      abstract  override def |> :PartialFunction[T, Try[B]] =  super.|>
-    }
-}
