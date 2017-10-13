@@ -3,20 +3,17 @@ package ScalaForMachineLeaning
 
 
 
-import ScalaForMachineLeaning.Type.{DblF, DblVec}
+
+
+import ScalaForMachineLeaning.Constant.{DblF, DblArray}
 
 import scala.util.{Random, Try}
+import Constant._
 
-/**
-  * Created by hasegawahiroaki on 2017/10/11.
-  */
 object  Chapter3 extends App {
 
 
-  val (samples, normRatio, splits) = (100, 10, 4)
-
-
-  val workflow= new Workflow[DblF,DblVec,DblVec,Int] with MixInSampling with MixInNormalizer with MixInAggregator
+  val workflow= new Workflow[DblF,DblArray,DblArray,Int] with MixInSampling with MixInNormalizer with MixInAggregator
 
   val g=(x:Double)=>Math.log(x+1.0)+Random.nextDouble
 
@@ -25,7 +22,7 @@ object  Chapter3 extends App {
   println(out)
 
 
-  val workflowWithoutAgr=new WorkflowWithoutAgr[DblF,DblVec,DblVec] with MixInSampling2 with MixInNormalizer
+  val workflowWithoutAgr=new WorkflowWithoutAgr[DblF,DblArray,DblArray] with MixInSampling2 with MixInNormalizer
 
   val out2 = workflowWithoutAgr ||> g
   println(out2)
@@ -73,13 +70,15 @@ case class ConfigDouble(fParam: Double) extends Config
 
 case class ConfigArrayDouble(fParams: Array[Double]) extends Config
 
+case object ConfigNone extends Config
 
-abstract class Transform[T, A](configOpt: Some[Config]) {
+
+abstract class Transform[T, A](config: Config) {
   // T:インプットする特徴量のデータ,A:アウトプットされるデータ
   self =>
   def |> : PartialFunction[T, Try[A]] // データのバリデーションを行うメソッド
 
-  def map[B](f: A => B): Transform[T, B] = new Transform[T, B](configOpt) {
+  def map[B](f: A => B): Transform[T, B] = new Transform[T, B](config) {
     override def |> = new PartialFunction[T, Try[B]] {
       override def isDefinedAt(t: T) =
         self.|>.isDefinedAt(t)
@@ -88,7 +87,7 @@ abstract class Transform[T, A](configOpt: Some[Config]) {
     }
   }
 
-  def flatMap[B](f: A => Transform[T, B]): Transform[T, B] = new Transform[T, B](configOpt) {
+  def flatMap[B](f: A => Transform[T, B]): Transform[T, B] = new Transform[T, B](config) {
     override def |> = new PartialFunction[T, Try[B]] {
       override def isDefinedAt(t: T) =
         self.|>.isDefinedAt(t)
@@ -97,7 +96,7 @@ abstract class Transform[T, A](configOpt: Some[Config]) {
     }
   }
 
-  def andThen[B](tr: Transform[A, B]): Transform[T, B] = new Transform[T, B](configOpt) {
+  def andThen[B](tr: Transform[A, B]): Transform[T, B] = new Transform[T, B](config) {
     override def |> = new PartialFunction[T, Try[B]] {
       override def isDefinedAt(t: T) =
         self.|>.isDefinedAt(t) && tr.|>.isDefinedAt(self.|>(t).get)
@@ -162,17 +161,15 @@ trait Workflow[T, U, V, W] extends UsesSampling[T, U] with UsesNormalization[U, 
 
 
 trait MixInSampling {
-  val (samples, normRatio, splits) = (100, 10, 4)
-  val sampler: Transform[DblF, DblVec] = new Transform[DblF, DblVec](Some(ConfigInt(samples))) {
-    override def |> : PartialFunction[DblF, Try[DblVec]] = {
-      case f: DblF => Try(Vector.tabulate(samples)(n => f(1.0 * n / samples))) // 0,0.01,0.02,,,1.00までの値をfで変換した要素をもつベクトルを生成
+  val sampler: Transform[DblF, DblArray] = new Transform[DblF, DblArray](ConfigInt(samples)) {
+    override def |> : PartialFunction[DblF, Try[DblArray]] = {
+      case f: DblF => Try(Array.tabulate(samples)(n => f(1.0 * n / samples))) // 0,0.01,0.02,,,1.00までの値をfで変換した要素をもつベクトルを生成
     }
   }
 }
 
-case class MinMax[T <: AnyVal](values: Vector[T])(implicit f: T => Double) {
+case class MinMax[T ](values:Array[T])(implicit f: T => Double) {
 
-  private case class ScaleFactors(low: Double, high: Double, ratio: Double)
 
   val range = (0.0, 0.0)
 
@@ -188,7 +185,7 @@ case class MinMax[T <: AnyVal](values: Vector[T])(implicit f: T => Double) {
   val max = minMax._2
 
   //[lox,high]の間で正規化する yi-low=(xi-x_low/(x_hig-x_low)(high-low))
-  def normalize(low: Double = 0.0, high: Double = 1.0): DblVec = {
+  def normalize(low: Double = 0.0, high: Double = 1.0): DblArray = {
     val ratio = (high - low) / (max - min)
     values.map(x => (x - min) * ratio + low)
   }
@@ -196,26 +193,24 @@ case class MinMax[T <: AnyVal](values: Vector[T])(implicit f: T => Double) {
 
 
 trait MixInNormalizer {
-  val (samples, normRatio, splits) = (100, 10, 4)
-  val normalizer: Transform[DblVec, DblVec] = new Transform[DblVec, DblVec](Some(ConfigDouble(normRatio))) {
+  val normalizer: Transform[DblArray, DblArray] = new Transform[DblArray, DblArray](ConfigDouble(normRatio)) {
     override def |> = {
-      case x: DblVec if x.nonEmpty => Try(MinMax[Double](x).normalize())
+      case x: DblArray if x.nonEmpty => Try(MinMax[Double](x).normalize())
     }
   }
 }
 
 trait MixInAggregator {
-  val (samples, normRatio, splits) = (100, 10, 4)
-  val aggregator = new Transform[DblVec, Int](Some(ConfigInt(splits))) {
-    override def |> : PartialFunction[DblVec, Try[Int]] = {
-      case x: DblVec if x.nonEmpty => Try(x.indices.find(x(_) == 1.0).getOrElse(-1))
+  val aggregator = new Transform[DblArray, Int](ConfigInt(splits)) {
+    override def |> : PartialFunction[DblArray, Try[Int]] = {
+      case x: DblArray if x.nonEmpty => Try(x.indices.find(x(_) == 1.0).getOrElse(-1))
     }
   }
 }
 
 
-
-// 例えば、サンプルを入れ替え、aggregationを外したい場合
+// 例えば、サンプルのロジックを入れ替え、aggregationを外したい場合
+// 入れ替えることも、使い回す事も、拡張する事も自由自在
 // ワークフローの流れを構築
 trait WorkflowWithoutAgr[T, U, V] extends UsesSampling[T, U] with UsesNormalization[U, V]{
 
@@ -227,10 +222,9 @@ trait WorkflowWithoutAgr[T, U, V] extends UsesSampling[T, U] with UsesNormalizat
 }
 
 trait MixInSampling2 {
-  val (samples, normRatio, splits) = (100, 10, 4)
-  val sampler: Transform[DblF, DblVec] = new Transform[DblF, DblVec](Some(ConfigInt(samples))) {
-    override def |> : PartialFunction[DblF, Try[DblVec]] = {
-      case f: DblF => Try(Vector.tabulate(samples)(n => f(Math.exp(1.0 * n / samples))))
+  val sampler: Transform[DblF, DblArray] = new Transform[DblF, DblArray](ConfigInt(samples)) {
+    override def |> : PartialFunction[DblF, Try[DblArray]] = {
+      case f: DblF => Try(Array.tabulate(samples)(n => f(Math.exp(1.0 * n / samples))))
     }
   }
 }
