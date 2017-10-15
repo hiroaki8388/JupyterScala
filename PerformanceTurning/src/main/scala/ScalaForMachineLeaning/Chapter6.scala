@@ -4,7 +4,7 @@ import ScalaForMachineLeaning.Constant._
 
 import scala.io.Source
 import scala.reflect.ClassTag
-import scala.util.Try
+import scala.util.{Random, Try}
 import DataSource._
 
 /**
@@ -12,31 +12,54 @@ import DataSource._
   */
 object Chapter6 extends App {
 
-  val traomRatio = 0.8
+  val trainRatio = 0.8
   val period = 4
   val sympol = "IBM"
-    val path=""
-  val sMv= new SimpleMovingAverage[Double](period)
+  val path = ""
+  val sMv = new SimpleMovingAverage[Double](period)
 
-  val extractor=toDouble(CLOSE)::ratio(HIGH,LOW):: toDouble(VOLUME):: List.empty[Array[String]=>Double]
+  val extractor = toDouble(CLOSE) :: ratio(HIGH, LOW) :: toDouble(VOLUME) :: List.empty[Array[String] => Double]
+  val delta: DbPair => Int = (x: DbPair) => if (x._1 > x._2) 1 else 0
 
 
+  def computeDeltas(obs: DbMatrix): Try[(DbMatrix, IMatrix)] = Try {
 
-
-  def computeDeltas(obs:DbMatrix): Try[(DbMatrix, IMatrix)] =Try{
-    val delta:DbPair=>Int=(x:DbPair)=> if(x._1>x._2) 1 else 0
-    val sm=obs.map(v=>(sMv |> v).get)
-    val x=obs.drop(period-1)
+    val sm = obs.map(v => (sMv |> v).get)
+    val x = obs.drop(period - 1)
     // 移動平均の値と比較し、UP or DOWNのラベル付け
-    (x,(x zip sm).map{case (_x,y)=> (_x zip y).map(delta)})
+    (x, (x zip sm).map { case (_x, y) => (_x zip y).map(delta) })
+  }
+
+  val fiScore = for {
+    obs <- DataSource(DataSourceConfig(pathName = path, normalize = true, reverseOrder = true, headerLines = 1)) |> (extractor) // データのロードと extractorの関数に沿ってデータを整形
+    (raw, delta) <- computeDeltas(obs) // データのラベル化
+    expected <- Try(delta.head) // 正解データ
+    features <- Try(delta.drop(0).transpose.map(_.toArray)) // 正解ラベルをdropして転置
+    labeledData <- Try(OneFoldValidation[Int](features,expected.toVector,trainRatio))
+    f1Score <- NaiveBayes[Int](1.0,labeledData.trainSet.map(_._1),labeledData.trainSet.map(_._2).toArray,2)
+      .validate(labeledData.validationSet.map(_._1),labeledData.validationSet.map(_._2))
+
+  } yield f1Score
 }
 
- val a= for{
-    obs <- DataSource(DataSourceConfig(pathName = path,normalize = true,reverseOrder = true,headerLines = 1)) |>(extractor) // データのロードと extractorの関数に沿ってデータを整形
-    (x,delta)<- computeDeltas(obs) // データのラベル化
+case class OneFoldValidation[T <: AnyVal](
+                                           features: Vector[Array[T]],
+                                           expected: Vector[Int],
+                                           ratio: Double // トレーニングsize/全体のデータsize
+                                         ) {
+  val (trainSet, validationSet): (LabeledVector[T], LabeledVector[T]) = {
+    val labeledData = features zip expected
+    val trainSize = {
+      val size = (ratio * labeledData.size).floor.toInt
+      if (size < 2) 1 else size
+    }
 
+    // データセットの並び替え
+    val shuffledData = labeledData.map((_, Random.nextDouble())) // シャッフルするためのラベルをつける
+      .sortWith(_._2 < _._2).unzip._1 //ラベルの除去
 
-  }yield src
+    (shuffledData.takeRight(trainSize), shuffledData.dropRight(trainSize))
+  }
 }
 
 case class DataSourceConfig(
@@ -45,8 +68,8 @@ case class DataSourceConfig(
                              reverseOrder: Boolean,
                              headerLines: Int = 1) extends Config
 
-case class DataSource(config:DataSourceConfig,srcFilter:Option[Fields=>Boolean]=None)
-extends Transform[List[Fields=>Double],Vector[Array[Double]]](config) {
+case class DataSource(config: DataSourceConfig, srcFilter: Option[Fields => Boolean] = None)
+  extends Transform[List[Fields => Double], Vector[Array[Double]]](config) {
 
 
   def loadConvert[T: ClassTag](implicit c: String => T): Try[List[Array[T]]] = Try {
@@ -59,7 +82,9 @@ extends Transform[List[Fields=>Double],Vector[Array[Double]]](config) {
 
   private def load: Try[(Fields, Array[Fields])] = Try {
     val src = Source.fromFile(config.pathName)
-    val (head,rawFields) = src.getLines().map(_.split(CSV_DELM)).toArray match {case x=>(x(config.headerLines),x)}
+    val (head, rawFields) = src.getLines().map(_.split(CSV_DELM)).toArray match {
+      case x => (x(config.headerLines), x)
+    }
 
     val (fields) = if (srcFilter.isDefined) rawFields.filter(srcFilter.get) else rawFields
     val results = if (config.reverseOrder) fields.reverse else fields
@@ -70,35 +95,39 @@ extends Transform[List[Fields=>Double],Vector[Array[Double]]](config) {
     textFields
   }
 
-    override def |> : PartialFunction[List[(Fields) => Double], Try[Vector[Array[Double]]]] = {
-      case fields: List[(Fields) => Double] if fields.nonEmpty => load.map( data => {
-        val convert: ((Fields) => Double) => Array[Double] = (f: Fields => Double) => data._2.map(f )  // 行毎にfにそった変換（抽出）処理を行う
+  override def |> : PartialFunction[List[(Fields) => Double], Try[Vector[Array[Double]]]] = {
+    case fields: List[(Fields) => Double] if fields.nonEmpty => load.map(data => {
+      val convert: ((Fields) => Double) => Array[Double] = (f: Fields => Double) => data._2.map(f) // 行毎にfにそった変換（抽出）処理を行う
 
-        if( config.normalize)
-          fields.map(t => new MinMax[Double](convert(t)).normalize(0.0, 1.0)).toVector
-        else
-          fields.map(convert).toVector
-      })
-    }
+      if (config.normalize)
+        fields.map(t => new MinMax[Double](convert(t)).normalize(0.0, 1.0)).toVector
+      else
+        fields.map(convert).toVector
+    })
+  }
 
 }
 
-object DataSource{
+object DataSource {
 
-  sealed abstract class DataField(val value:Int)
+  sealed abstract class DataField(val value: Int)
 
-  case class StockMarketDataField(column:Int)extends DataField(column)
-  val DATE=StockMarketDataField(0)
- val  OPEN=StockMarketDataField(1)
- val  HIGH=StockMarketDataField(2)
-  val LOW=StockMarketDataField(3)
-  val CLOSE=StockMarketDataField(4)
-  val VOLUME=StockMarketDataField(5)
-  val ADJ_CLOSE=StockMarketDataField(5)
+  case class StockMarketDataField(column: Int) extends DataField(column)
 
-  def toDouble(v : DataField): Fields => Double = (s: Fields) => s(v.value).toDouble
+  val DATE = StockMarketDataField(0)
+  val OPEN = StockMarketDataField(1)
+  val HIGH = StockMarketDataField(2)
+  val LOW = StockMarketDataField(3)
+  val CLOSE = StockMarketDataField(4)
+  val VOLUME = StockMarketDataField(5)
+  val ADJ_CLOSE = StockMarketDataField(5)
+
+  def toDouble(v: DataField): Fields => Double = (s: Fields) => s(v.value).toDouble
+
   def toArray(vs: Array[DataField]): Fields => Array[Double] =
-    (s: Fields) => vs.map(v => { s(v.value).toDouble })
+    (s: Fields) => vs.map(v => {
+      s(v.value).toDouble
+    })
 
   /**
     * (v1-v2)/v2
@@ -111,11 +140,9 @@ object DataSource{
 }
 
 
-
-
 trait MovingAverage[T]
 
-class SimpleMovingAverage[@specialized(Double) T](period: Int)(implicit val f: T => Double, num:Numeric[T])
+class SimpleMovingAverage[@specialized(Double) T](period: Int)(implicit val f: T => Double, num: Numeric[T])
   extends Transform[Array[T], DblArray](ConfigInt(period)) with MovingAverage[T] {
 
 
@@ -265,7 +292,6 @@ case class NaiveBayes[@specialized T <: AnyVal](
     case xt: Array[T] if xt.nonEmpty =>
       Try(model.classify(xt))
   }
-
 
 
   val model: NaiveBayesModel[T, Int] = {

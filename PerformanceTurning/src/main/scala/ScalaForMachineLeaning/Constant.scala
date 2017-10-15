@@ -10,6 +10,7 @@ package object Constant {
   final type IMatrix=Vector[Array[Int]]
   final type DbMatrix=Vector[Array[Double]]
   final type Fields=Array[String]
+  final type LabeledVector[T] = Vector[(Array[T], Int)]
 
   final val CSV_DELM=","
   final val MINLOGARG = 1e-32
