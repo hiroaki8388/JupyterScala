@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../.idea/modules/scalajupyter.iml" filepath="$PROJECT_DIR$/../.idea/modules/scalajupyter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/modules/scalajupyter-build.iml" filepath="$PROJECT_DIR$/../.idea/modules/scalajupyter-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatoolbox.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatoolbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalatoolbox-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalatoolbox-build.iml" />
+    </modules>
+  </component>
+</project>

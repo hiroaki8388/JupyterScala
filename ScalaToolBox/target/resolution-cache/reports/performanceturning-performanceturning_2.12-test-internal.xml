@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="performanceturning"
+		module="performanceturning_2.12"
+		revision="1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, jmh, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20171024223832"/>
+	<dependencies>
+		<module organisation="org.openjdk.jmh" name="jmh-generator-bytecode">
+			<revision name="1.11.3" status="release" pubdate="20160115054856" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<metadata-artifact status="no" details="" size="3450" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.openjdk.jmh/jmh-generator-bytecode/ivy-1.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-bytecode/1.11.3/jmh-generator-bytecode-1.11.3.pom"/>
+				<caller organisation="performanceturning" name="performanceturning_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.3" rev-constraint-default="1.11.3" rev-constraint-dynamic="1.11.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jmh-generator-bytecode" type="jar" ext="jar" status="no" details="" size="18576" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.openjdk.jmh/jmh-generator-bytecode/jars/jmh-generator-bytecode-1.11.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-bytecode/1.11.3/jmh-generator-bytecode-1.11.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjdk.jmh" name="jmh-generator-asm">
+			<revision name="1.11.3" status="release" pubdate="20160115054723" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<metadata-artifact status="no" details="" size="3377" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.openjdk.jmh/jmh-generator-asm/ivy-1.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-asm/1.11.3/jmh-generator-asm-1.11.3.pom"/>
+				<caller organisation="org.openjdk.jmh" name="jmh-generator-bytecode" conf="default, compile, runtime, master" rev="1.11.3" rev-constraint-default="1.11.3" rev-constraint-dynamic="1.11.3" callerrev="1.11.3"/>
+				<artifacts>
+					<artifact name="jmh-generator-asm" type="jar" ext="jar" status="no" details="" size="31458" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.openjdk.jmh/jmh-generator-asm/jars/jmh-generator-asm-1.11.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-asm/1.11.3/jmh-generator-asm-1.11.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="5.0.3" status="release" pubdate="20140524173012" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<metadata-artifact status="no" details="" size="3884" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.ow2.asm/asm/ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom"/>
+				<caller organisation="org.openjdk.jmh" name="jmh-generator-asm" conf="compile, runtime" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="1.11.3"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="53231" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.ow2.asm/asm/jars/asm-5.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjdk.jmh" name="jmh-generator-reflection">
+			<revision name="1.11.3" status="release" pubdate="20160115054717" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="5">
+				<metadata-artifact status="no" details="" size="3084" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.openjdk.jmh/jmh-generator-reflection/ivy-1.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-reflection/1.11.3/jmh-generator-reflection-1.11.3.pom"/>
+				<caller organisation="performanceturning" name="performanceturning_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.3" rev-constraint-default="1.11.3" rev-constraint-dynamic="1.11.3" callerrev="1.0"/>
+				<caller organisation="org.openjdk.jmh" name="jmh-generator-bytecode" conf="default, compile, runtime, master" rev="1.11.3" rev-constraint-default="1.11.3" rev-constraint-dynamic="1.11.3" callerrev="1.11.3"/>
+				<caller organisation="org.openjdk.jmh" name="jmh-generator-asm" conf="compile, runtime" rev="1.11.3" rev-constraint-default="1.11.3" rev-constraint-dynamic="1.11.3" callerrev="1.11.3"/>
+				<artifacts>
+					<artifact name="jmh-generator-reflection" type="jar" ext="jar" status="no" details="" size="24464" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.openjdk.jmh/jmh-generator-reflection/jars/jmh-generator-reflection-1.11.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-reflection/1.11.3/jmh-generator-reflection-1.11.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjdk.jmh" name="jmh-core">
+			<revision name="1.11.3" status="release" pubdate="20160115054328" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<metadata-artifact status="no" details="" size="3653" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.openjdk.jmh/jmh-core/ivy-1.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-core/1.11.3/jmh-core-1.11.3.pom"/>
+				<caller organisation="performanceturning" name="performanceturning_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="1.11.3" rev-constraint-default="1.11.3" rev-constraint-dynamic="1.11.3" callerrev="1.0"/>
+				<caller organisation="org.openjdk.jmh" name="jmh-generator-bytecode" conf="default, compile, runtime, master" rev="1.11.3" rev-constraint-default="1.11.3" rev-constraint-dynamic="1.11.3" callerrev="1.11.3"/>
+				<caller organisation="org.openjdk.jmh" name="jmh-generator-reflection" conf="compile, runtime" rev="1.11.3" rev-constraint-default="1.11.3" rev-constraint-dynamic="1.11.3" callerrev="1.11.3"/>
+				<caller organisation="org.openjdk.jmh" name="jmh-generator-asm" conf="compile, runtime" rev="1.11.3" rev-constraint-default="1.11.3" rev-constraint-dynamic="1.11.3" callerrev="1.11.3"/>
+				<artifacts>
+					<artifact name="jmh-core" type="jar" ext="jar" status="no" details="" size="464847" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.openjdk.jmh/jmh-core/jars/jmh-core-1.11.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-core/1.11.3/jmh-core-1.11.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.2" status="release" pubdate="20130403043128" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<metadata-artifact status="no" details="" size="9435" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.apache.commons/commons-math3/ivy-3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom"/>
+				<caller organisation="org.openjdk.jmh" name="jmh-core" conf="default, compile, runtime, master" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="1.11.3"/>
+				<artifacts>
+					<artifact name="commons-math3" type="jar" ext="jar" status="no" details="" size="1692782" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.jopt-simple" name="jopt-simple">
+			<revision name="4.6" status="release" pubdate="20140106104903" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pholser.github.com/jopt-simple" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3837" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/net.sf.jopt-simple/jopt-simple/ivy-4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.pom"/>
+				<caller organisation="org.openjdk.jmh" name="jmh-core" conf="default, compile, runtime, master" rev="4.6" rev-constraint-default="4.6" rev-constraint-dynamic="4.6" callerrev="1.11.3"/>
+				<artifacts>
+					<artifact name="jopt-simple" type="jar" ext="jar" status="no" details="" size="62477" time="0" location="/Users/hasegawahiroaki/.ivy2/cache/net.sf.jopt-simple/jopt-simple/jars/jopt-simple-4.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.2" status="release" pubdate="20170413171911" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.2/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="successful" details="" size="1587" time="681" location="/Users/hasegawahiroaki/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.2.xml" searched="true" original-local-location="/Users/hasegawahiroaki/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.pom"/>
+				<caller organisation="performanceturning" name="performanceturning_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.2" rev-constraint-default="2.12.2" rev-constraint-dynamic="2.12.2" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="5278660" time="34239" location="/Users/hasegawahiroaki/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.2/scala-library-2.12.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-scalacheck-binding_2.12">
+			<revision name="7.1.0" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="performanceturning" name="performanceturning_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.0" rev-constraint-default="7.1.0" rev-constraint-dynamic="7.1.0" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-typelevel_2.12">
+			<revision name="7.1.0" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="performanceturning" name="performanceturning_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.0" rev-constraint-default="7.1.0" rev-constraint-dynamic="7.1.0" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-effect_2.12">
+			<revision name="7.1.0" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="performanceturning" name="performanceturning_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.0" rev-constraint-default="7.1.0" rev-constraint-dynamic="7.1.0" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.12">
+			<revision name="7.1.0" error="not found" downloaded="false" searched="false" conf="default(compile)" position="-1">
+				<caller organisation="performanceturning" name="performanceturning_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.0" rev-constraint-default="7.1.0" rev-constraint-dynamic="7.1.0" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

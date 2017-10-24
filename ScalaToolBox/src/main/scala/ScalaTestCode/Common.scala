@@ -1,10 +1,12 @@
 package ScalaTestCode
 
-import ScalaForMachineLeaning.Constant.{CSV_DELM, Fields}
-import ScalaForMachineLeaning.MinMax
+import java.io.{File, IOException}
 
-import scala.io.Source
-import scala.reflect.ClassTag
+import ScalaTestCode.Constant.{Fields, Header, Order, Table}
+import org.apache.poi.hssf.usermodel.HSSFWorkbook
+import org.apache.poi.sl.usermodel.Sheet
+import org.apache.poi.ss.usermodel.{Sheet, Workbook, WorkbookFactory}
+
 import scala.util.Try
 
 /**
@@ -14,20 +16,8 @@ import scala.util.Try
 
 trait Config
 
-case class ConfigInt(iParam: Int) extends Config
-
-case class ConfigDouble(fParam: Double) extends Config
-
-case class ConfigArrayDouble(fParams: Array[Double]) extends Config
-
-case class DataSourceConfig(
-                             pathName: String,
-                             normalize: Boolean,
-                             reverseOrder: Boolean,
-                             headerLines: Int = 1) extends Config
-
-case class ExcelFileSourceConfig(pageOpt:Option[Int] =None) extends Config
-
+case class CsvFileSourceConfig(pathName:String,
+                               headerLine:Int=1) extends Config
 
 case object ConfigNone extends Config
 
@@ -66,46 +56,41 @@ abstract class Transform[T, A](config: Config) {
   }
 }
 
+trait FileSource {
 
-case class ExcelFileSource(config: DataSourceConfig, srcFilter: Option[Fields => Boolean] = None)
-extends Transform
+ protected def load:Try[(Header,Table)]
+}
 
-case class DataSource(config: DataSourceConfig, srcFilter: Option[Fields => Boolean] = None)
-  extends Transform[List[Fields => Double], Vector[Array[Double]]](config) {
+class CsvFileSource(config: CsvFileSourceConfig, srcFilter: Option[Fields => Boolean] = None)
+extends Transform[List[Fields=>String],Map[String,String]](config) with FileSource{
 
 
-  def loadConvert[T: ClassTag](implicit c: String => T): Try[List[Array[T]]] = Try {
-    val src = Source.fromFile(config.pathName)
-    val fields = src.getLines().map(_.split(CSV_DELM).map(c(_))).toList
-    src.close
+  override protected def load: Try[(Header, Table)] = ???
 
-    fields
+  override def |> : PartialFunction[List[(Fields) => Order], Try[Process]] = {
+
   }
+}
 
-  private def load: Try[(Fields, Array[Fields])] = Try {
-    val src = Source.fromFile(config.pathName)
-    val (head, rawFields) = src.getLines().map(_.split(CSV_DELM)).toArray match {
-      case x => (x(config.headerLines), x)
-    }
-
-    val (fields) = if (srcFilter.isDefined) rawFields.filter(srcFilter.get) else rawFields
-    val results = if (config.reverseOrder) fields.reverse else fields
-
-    val textFields = (head, results)
-    src.close()
-
-    textFields
-  }
-
-  override def |> : PartialFunction[List[(Fields) => Double], Try[Vector[Array[Double]]]] = {
-    case fields: List[(Fields) => Double] if fields.nonEmpty => load.map(data => {
-      val convert: ((Fields) => Double) => Array[Double] = (f: Fields => Double) => data._2.map(f) // 行毎にfにそった変換（抽出）処理を行う
-
-      if (config.normalize)
-        fields.map(t => new MinMax[Double](convert(t)).normalize(0.0, 1.0)).toVector
-      else
-        fields.map(convert).toVector
-    })
-  }
+object CsvFileSource {
 
 }
+
+  sealed trait Process{ val value:Int,val orders:Seq[Order]}
+
+  // 事前準備
+  case class PreOperation(value:Int =0,orders: Seq[Order]) extends Process
+
+  // チェックする要素
+  case class CheckPoint(value:Int =1,orders :Seq[Order]) extends Process
+
+  // 事後処理
+  case class PostOperation(value:Int =2,orders:Seq[Order]) extends Process
+
+
+
+
+
+
+
+
