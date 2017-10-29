@@ -1,0 +1,14 @@
+
+object Main extends App{
+  scala.io.StdIn
+
+}
+
+sealed trait Functor[F[_]]{
+
+  def map[A,B](a:F[_])(f:A=>B):F[B]
+
+}
+
+
+//implicit val
