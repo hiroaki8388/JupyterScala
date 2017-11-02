@@ -3,7 +3,7 @@ package MonadDI
 /**
   * Created by hasegawahiroaki on 2017/10/29.
   */
-object Main extends App {
+object main extends App {
   def update(data:String):Reader[UseDBClient,Unit]=
     Reader.reader(env=>env.dbClient.update(data))
 
