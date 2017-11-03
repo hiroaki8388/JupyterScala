@@ -1,241 +1,243 @@
+[warn] Multiple dependencies with the same organization/name but different versions. To avoid conflict, pick one version:
+[warn]  * org.scala-lang:scala-library:(2.12.3, 2.12.2)
 [debug] :: resolving dependencies :: default#scalatoolbox$sources_2.12;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->default(compile)]
-[info] Resolving org.scala-lang#scala-library;2.12.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e72e7eb
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.2
-[debug] 	found org.scala-lang#scala-library;2.12.2 in sbt-chain
-[debug] 	[2.12.2] org.scala-lang#scala-library;2.12.2
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->default(compile)]
-[info] Resolving org.apache.poi#poi;3.17 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@97fa622
-[debug] sbt-chain: module revision found in cache: org.apache.poi#poi;3.17
-[debug] 	found org.apache.poi#poi;3.17 in sbt-chain
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[info] Resolving commons-codec#commons-codec;1.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4150216f
-[debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.10
-[debug] 	found commons-codec#commons-codec;1.10 in sbt-chain
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->default(compile)]
-[info] Resolving org.apache.commons#commons-collections4;4.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36c32947
-[debug] sbt-chain: module revision found in cache: org.apache.commons#commons-collections4;4.1
-[debug] 	found org.apache.commons#commons-collections4;4.1 in sbt-chain
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->default(compile)]
-[info] Resolving org.apache.poi#poi-ooxml;3.17 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18f3618f
-[debug] sbt-chain: module revision found in cache: org.apache.poi#poi-ooxml;3.17
-[debug] 	found org.apache.poi#poi-ooxml;3.17 in sbt-chain
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->default(compile)]
-[info] Resolving org.apache.poi#poi-ooxml-schemas;3.17 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b6ce4eb
-[debug] sbt-chain: module revision found in cache: org.apache.poi#poi-ooxml-schemas;3.17
-[debug] 	found org.apache.poi#poi-ooxml-schemas;3.17 in sbt-chain
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->default(compile)]
-[info] Resolving org.apache.xmlbeans#xmlbeans;2.6.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23a6e4e7
-[debug] sbt-chain: module revision found in cache: org.apache.xmlbeans#xmlbeans;2.6.0
-[debug] 	found org.apache.xmlbeans#xmlbeans;2.6.0 in sbt-chain
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->default(compile)]
-[info] Resolving com.github.virtuald#curvesapi;1.04 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38cd7e25
-[debug] sbt-chain: module revision found in cache: com.github.virtuald#curvesapi;1.04
-[debug] 	found com.github.virtuald#curvesapi;1.04 in sbt-chain
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->default(compile)]
+[info] Resolving org.scalaz#scalaz-core_2.12;7.2.16 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ce1cf6e
+[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.12;7.2.16
+[debug] 	found org.scalaz#scalaz-core_2.12;7.2.16 in sbt-chain
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.12.3 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b3e11c0
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.3
+[debug] 	found org.scala-lang#scala-library;2.12.3 in sbt-chain
+[debug] 	[2.12.3] org.scala-lang#scala-library;2.12.3
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->default(compile)]
+[info] Resolving org.scalaz#scalaz-effect_2.12;7.2.16 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c860ff5
+[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.12;7.2.16
+[debug] 	found org.scalaz#scalaz-effect_2.12;7.2.16 in sbt-chain
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->default(compile)]
+[info] Resolving org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33eea03a
+[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16
+[debug] 	found org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 in sbt-chain
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->default(compile)]
+[info] Resolving org.scalaz#scalaz-iteratee_2.12;7.2.16 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70654375
+[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-iteratee_2.12;7.2.16
+[debug] 	found org.scalaz#scalaz-iteratee_2.12;7.2.16 in sbt-chain
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->default(compile)]
+[info] Resolving org.scalaz#scalaz-concurrent_2.12;7.2.16 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@667ee206
+[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.12;7.2.16
+[debug] 	found org.scalaz#scalaz-concurrent_2.12;7.2.16 in sbt-chain
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->default(compile)]
+[info] Resolving org.scalacheck#scalacheck_2.12;1.12.6 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6317d0
+[debug] sbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.12;1.12.6
+[debug] 	found org.scalacheck#scalacheck_2.12;1.12.6 in sbt-chain
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
+[info] Resolving org.scala-sbt#test-interface;1.0 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a9aec7b
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
+[debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [runtime]
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [test]
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [runtime]
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [test->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [test->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [test->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [test->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [test->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [test->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [test->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -243,308 +245,308 @@
 [debug] resolving dependencies for configuration 'compile-internal'
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [compile-internal]
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->master]
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [optional]
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [provided]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [runtime-internal]
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [runtime]
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->master]
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [optional]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [test-internal]
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [test]
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [runtime]
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [compile->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [runtime->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [test->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [test->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [test->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [test->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [test->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [test->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [test->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [test->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [test->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [test->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [compile->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [runtime->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [test->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [test->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [test->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [optional]
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [provided]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [test-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [test-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [test-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [test-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [test-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [test-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [test-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi;3.17 [test-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [test-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [test-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [test-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->commons-codec#commons-codec;1.10 [test-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [test-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [test-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [test-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.commons#commons-collections4;4.1 [test-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [test-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [test-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [test-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml;3.17 [test-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [test-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [test-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [test-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.poi#poi-ooxml-schemas;3.17 [test-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [test-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [test-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [test-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.apache.xmlbeans#xmlbeans;2.6.0 [test-internal->master]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [test-internal->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [test-internal->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [test-internal->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->com.github.virtuald#curvesapi;1.04 [test-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [test-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [test-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [test-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-core_2.12;7.2.16 [test-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [test-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [test-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [test-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.3 [test-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [test-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [test-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [test-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-effect_2.12;7.2.16 [test-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [test-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [test-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [test-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16 [test-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [test-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [test-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [test-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-iteratee_2.12;7.2.16 [test-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [test-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [test-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [test-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalaz#scalaz-concurrent_2.12;7.2.16 [test-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [test-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [test-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [test-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scalacheck#scalacheck_2.12;1.12.6 [test-internal->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [test-internal->default(compile)]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [test-internal->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [test-internal->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-sbt#test-interface;1.0 [test-internal->master]
 [debug] resolving dependencies for configuration 'plugin'
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
@@ -555,10 +557,6 @@
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
 [debug] == resolving dependencies for default#scalatoolbox$sources_2.12;1.0 [scala-tool]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [scala-tool->default(compile)]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [scala-tool->runtime]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [scala-tool->compile]
-[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [scala-tool->master]
 [debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-compiler;2.12.2 [scala-tool->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.12.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.2 {scala-tool=[default(compile)]}
@@ -567,6 +565,15 @@
 [debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-compiler;2.12.2 [scala-tool->runtime]
 [debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-compiler;2.12.2 [scala-tool->compile]
 [debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-compiler;2.12.2 [scala-tool->master]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [scala-tool->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.12.2 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.2 {scala-tool=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.2
+[debug] 	found org.scala-lang#scala-library;2.12.2 in sbt-chain
+[debug] 	[2.12.2] org.scala-lang#scala-library;2.12.2
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [scala-tool->runtime]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [scala-tool->compile]
+[debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-library;2.12.2 [scala-tool->master]
 [debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->org.scala-lang#scala-reflect;2.12.2 [scala-tool->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.12.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.2 {scala-tool=[default(compile)]}
@@ -594,92 +601,116 @@
 [debug] == resolving dependencies default#scalatoolbox$sources_2.12;1.0->jline#jline;2.14.3 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.2!scala-library.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.2!scala-library.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.poi#poi;3.17!poi.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.poi#poi;3.17!poi.jar
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-collections4;4.1!commons-collections4.jar
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-collections4;4.1!commons-collections4.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.poi#poi-ooxml;3.17!poi-ooxml.jar
-[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/org.apache.poi/poi-ooxml/3.17/srcs/poi-ooxml-sources.jar
-[debug] 		tried /Users/hasegawahiroaki/.activator/repository/org.apache.poi/poi-ooxml/3.17/srcs/poi-ooxml-sources.jar
-[debug] 		tried /activator-dist-1.3.12/repository/org.apache.poi/poi-ooxml/3.17/srcs/poi-ooxml-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.poi#poi-ooxml;3.17!poi-ooxml.jar(src) (5026ms)
-[debug] 	[NOT REQUIRED] org.apache.poi#poi-ooxml-schemas;3.17!poi-ooxml-schemas.jar
-[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/org.apache.poi/poi-ooxml-schemas/3.17/srcs/poi-ooxml-schemas-sources.jar
-[debug] 		tried /Users/hasegawahiroaki/.activator/repository/org.apache.poi/poi-ooxml-schemas/3.17/srcs/poi-ooxml-schemas-sources.jar
-[debug] 		tried /activator-dist-1.3.12/repository/org.apache.poi/poi-ooxml-schemas/3.17/srcs/poi-ooxml-schemas-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17-sources.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17-sources.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.poi/poi-ooxml-schemas/3.17/srcs/poi-ooxml-schemas-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.poi/poi-ooxml-schemas/3.17/srcs/poi-ooxml-schemas-sources.jar
-[warn] 	[FAILED     ] org.apache.poi#poi-ooxml-schemas;3.17!poi-ooxml-schemas.jar(src):  (0ms)
-[warn] ==== local: tried
-[warn]   /Users/hasegawahiroaki/.ivy2/local/org.apache.poi/poi-ooxml-schemas/3.17/srcs/poi-ooxml-schemas-sources.jar
-[warn] ==== activator-launcher-local: tried
-[warn]   /Users/hasegawahiroaki/.activator/repository/org.apache.poi/poi-ooxml-schemas/3.17/srcs/poi-ooxml-schemas-sources.jar
-[warn] ==== activator-local: tried
-[warn]   /activator-dist-1.3.12/repository/org.apache.poi/poi-ooxml-schemas/3.17/srcs/poi-ooxml-schemas-sources.jar
-[warn] ==== public: tried
-[warn]   https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17-sources.jar
-[warn] ==== typesafe-releases: tried
-[warn]   http://repo.typesafe.com/typesafe/releases/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17-sources.jar
-[warn] ==== typesafe-ivy-releasez: tried
-[warn]   http://repo.typesafe.com/typesafe/ivy-releases/org.apache.poi/poi-ooxml-schemas/3.17/srcs/poi-ooxml-schemas-sources.jar
-[debug] 	[NOT REQUIRED] org.apache.xmlbeans#xmlbeans;2.6.0!xmlbeans.jar
-[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/org.apache.xmlbeans/xmlbeans/2.6.0/srcs/xmlbeans-sources.jar
-[debug] 		tried /Users/hasegawahiroaki/.activator/repository/org.apache.xmlbeans/xmlbeans/2.6.0/srcs/xmlbeans-sources.jar
-[debug] 		tried /activator-dist-1.3.12/repository/org.apache.xmlbeans/xmlbeans/2.6.0/srcs/xmlbeans-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-sources.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-sources.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/org.apache.xmlbeans/xmlbeans/2.6.0/srcs/xmlbeans-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.apache.xmlbeans/xmlbeans/2.6.0/srcs/xmlbeans-sources.jar
-[warn] 	[FAILED     ] org.apache.xmlbeans#xmlbeans;2.6.0!xmlbeans.jar(src):  (0ms)
-[warn] ==== local: tried
-[warn]   /Users/hasegawahiroaki/.ivy2/local/org.apache.xmlbeans/xmlbeans/2.6.0/srcs/xmlbeans-sources.jar
-[warn] ==== activator-launcher-local: tried
-[warn]   /Users/hasegawahiroaki/.activator/repository/org.apache.xmlbeans/xmlbeans/2.6.0/srcs/xmlbeans-sources.jar
-[warn] ==== activator-local: tried
-[warn]   /activator-dist-1.3.12/repository/org.apache.xmlbeans/xmlbeans/2.6.0/srcs/xmlbeans-sources.jar
-[warn] ==== public: tried
-[warn]   https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-sources.jar
-[warn] ==== typesafe-releases: tried
-[warn]   http://repo.typesafe.com/typesafe/releases/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0-sources.jar
-[warn] ==== typesafe-ivy-releasez: tried
-[warn]   http://repo.typesafe.com/typesafe/ivy-releases/org.apache.xmlbeans/xmlbeans/2.6.0/srcs/xmlbeans-sources.jar
-[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/com.github.virtuald/curvesapi/1.04/srcs/curvesapi-sources.jar
-[debug] 	[NOT REQUIRED] com.github.virtuald#curvesapi;1.04!curvesapi.jar
-[debug] 		tried /Users/hasegawahiroaki/.activator/repository/com.github.virtuald/curvesapi/1.04/srcs/curvesapi-sources.jar
-[debug] 		tried /activator-dist-1.3.12/repository/com.github.virtuald/curvesapi/1.04/srcs/curvesapi-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/virtuald/curvesapi/1.04/curvesapi-1.04-sources.jar
-[info] 	[SUCCESSFUL ] com.github.virtuald#curvesapi;1.04!curvesapi.jar(src) (1501ms)
+[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/org.scalaz/scalaz-core_2.12/7.2.16/srcs/scalaz-core_2.12-sources.jar
+[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/org.scalaz/scalaz-core_2.12/7.2.16/jars/scalaz-core_2.12.jar
+[debug] 		tried /Users/hasegawahiroaki/.activator/repository/org.scalaz/scalaz-core_2.12/7.2.16/srcs/scalaz-core_2.12-sources.jar
+[debug] 		tried /Users/hasegawahiroaki/.activator/repository/org.scalaz/scalaz-core_2.12/7.2.16/jars/scalaz-core_2.12.jar
+[debug] 		tried /activator-dist-1.3.12/repository/org.scalaz/scalaz-core_2.12/7.2.16/srcs/scalaz-core_2.12-sources.jar
+[debug] 		tried /activator-dist-1.3.12/repository/org.scalaz/scalaz-core_2.12/7.2.16/jars/scalaz-core_2.12.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.16/scalaz-core_2.12-7.2.16-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.16/scalaz-core_2.12-7.2.16-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.16/scalaz-core_2.12-7.2.16-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.16/scalaz-core_2.12-7.2.16-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.16/scalaz-core_2.12-7.2.16-sources.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-core_2.12;7.2.16!scalaz-core_2.12.jar(src) (5894ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.16/scalaz-core_2.12-7.2.16.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.16/scalaz-core_2.12-7.2.16.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.16/scalaz-core_2.12-7.2.16.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.16/scalaz-core_2.12-7.2.16.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.16/scalaz-core_2.12-7.2.16.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-core_2.12;7.2.16!scalaz-core_2.12.jar (33778ms)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.3!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.3!scala-library.jar(src)
+[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/org.scalaz/scalaz-effect_2.12/7.2.16/srcs/scalaz-effect_2.12-sources.jar
+[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/org.scalaz/scalaz-effect_2.12/7.2.16/jars/scalaz-effect_2.12.jar
+[debug] 		tried /Users/hasegawahiroaki/.activator/repository/org.scalaz/scalaz-effect_2.12/7.2.16/srcs/scalaz-effect_2.12-sources.jar
+[debug] 		tried /Users/hasegawahiroaki/.activator/repository/org.scalaz/scalaz-effect_2.12/7.2.16/jars/scalaz-effect_2.12.jar
+[debug] 		tried /activator-dist-1.3.12/repository/org.scalaz/scalaz-effect_2.12/7.2.16/srcs/scalaz-effect_2.12-sources.jar
+[debug] 		tried /activator-dist-1.3.12/repository/org.scalaz/scalaz-effect_2.12/7.2.16/jars/scalaz-effect_2.12.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.16/scalaz-effect_2.12-7.2.16-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.16/scalaz-effect_2.12-7.2.16-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.16/scalaz-effect_2.12-7.2.16-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.16/scalaz-effect_2.12-7.2.16-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.16/scalaz-effect_2.12-7.2.16-sources.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-effect_2.12;7.2.16!scalaz-effect_2.12.jar(src) (728ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.16/scalaz-effect_2.12-7.2.16.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.16/scalaz-effect_2.12-7.2.16.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.16/scalaz-effect_2.12-7.2.16.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.16/scalaz-effect_2.12-7.2.16.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.16/scalaz-effect_2.12-7.2.16.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-effect_2.12;7.2.16!scalaz-effect_2.12.jar (2107ms)
+[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/org.scalaz/scalaz-scalacheck-binding_2.12/7.2.16/jars/scalaz-scalacheck-binding_2.12.jar
+[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/org.scalaz/scalaz-scalacheck-binding_2.12/7.2.16/srcs/scalaz-scalacheck-binding_2.12-sources.jar
+[debug] 		tried /Users/hasegawahiroaki/.activator/repository/org.scalaz/scalaz-scalacheck-binding_2.12/7.2.16/jars/scalaz-scalacheck-binding_2.12.jar
+[debug] 		tried /Users/hasegawahiroaki/.activator/repository/org.scalaz/scalaz-scalacheck-binding_2.12/7.2.16/srcs/scalaz-scalacheck-binding_2.12-sources.jar
+[debug] 		tried /activator-dist-1.3.12/repository/org.scalaz/scalaz-scalacheck-binding_2.12/7.2.16/jars/scalaz-scalacheck-binding_2.12.jar
+[debug] 		tried /activator-dist-1.3.12/repository/org.scalaz/scalaz-scalacheck-binding_2.12/7.2.16/srcs/scalaz-scalacheck-binding_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-scalacheck-binding_2.12/7.2.16/scalaz-scalacheck-binding_2.12-7.2.16.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-scalacheck-binding_2.12/7.2.16/scalaz-scalacheck-binding_2.12-7.2.16.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-scalacheck-binding_2.12/7.2.16/scalaz-scalacheck-binding_2.12-7.2.16.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-scalacheck-binding_2.12/7.2.16/scalaz-scalacheck-binding_2.12-7.2.16.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-scalacheck-binding_2.12/7.2.16/scalaz-scalacheck-binding_2.12-7.2.16.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16!scalaz-scalacheck-binding_2.12.jar (1526ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-scalacheck-binding_2.12/7.2.16/scalaz-scalacheck-binding_2.12-7.2.16-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-scalacheck-binding_2.12/7.2.16/scalaz-scalacheck-binding_2.12-7.2.16-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-scalacheck-binding_2.12/7.2.16/scalaz-scalacheck-binding_2.12-7.2.16-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-scalacheck-binding_2.12/7.2.16/scalaz-scalacheck-binding_2.12-7.2.16-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-scalacheck-binding_2.12/7.2.16/scalaz-scalacheck-binding_2.12-7.2.16-sources.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-scalacheck-binding_2.12;7.2.16!scalaz-scalacheck-binding_2.12.jar(src) (820ms)
+[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/org.scalaz/scalaz-iteratee_2.12/7.2.16/jars/scalaz-iteratee_2.12.jar
+[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/org.scalaz/scalaz-iteratee_2.12/7.2.16/srcs/scalaz-iteratee_2.12-sources.jar
+[debug] 		tried /Users/hasegawahiroaki/.activator/repository/org.scalaz/scalaz-iteratee_2.12/7.2.16/jars/scalaz-iteratee_2.12.jar
+[debug] 		tried /Users/hasegawahiroaki/.activator/repository/org.scalaz/scalaz-iteratee_2.12/7.2.16/srcs/scalaz-iteratee_2.12-sources.jar
+[debug] 		tried /activator-dist-1.3.12/repository/org.scalaz/scalaz-iteratee_2.12/7.2.16/jars/scalaz-iteratee_2.12.jar
+[debug] 		tried /activator-dist-1.3.12/repository/org.scalaz/scalaz-iteratee_2.12/7.2.16/srcs/scalaz-iteratee_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-iteratee_2.12/7.2.16/scalaz-iteratee_2.12-7.2.16.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-iteratee_2.12/7.2.16/scalaz-iteratee_2.12-7.2.16.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-iteratee_2.12/7.2.16/scalaz-iteratee_2.12-7.2.16.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-iteratee_2.12/7.2.16/scalaz-iteratee_2.12-7.2.16.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-iteratee_2.12/7.2.16/scalaz-iteratee_2.12-7.2.16.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-iteratee_2.12;7.2.16!scalaz-iteratee_2.12.jar (2780ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-iteratee_2.12/7.2.16/scalaz-iteratee_2.12-7.2.16-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-iteratee_2.12/7.2.16/scalaz-iteratee_2.12-7.2.16-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-iteratee_2.12/7.2.16/scalaz-iteratee_2.12-7.2.16-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-iteratee_2.12/7.2.16/scalaz-iteratee_2.12-7.2.16-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-iteratee_2.12/7.2.16/scalaz-iteratee_2.12-7.2.16-sources.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-iteratee_2.12;7.2.16!scalaz-iteratee_2.12.jar(src) (916ms)
+[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/org.scalaz/scalaz-concurrent_2.12/7.2.16/jars/scalaz-concurrent_2.12.jar
+[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/org.scalaz/scalaz-concurrent_2.12/7.2.16/srcs/scalaz-concurrent_2.12-sources.jar
+[debug] 		tried /Users/hasegawahiroaki/.activator/repository/org.scalaz/scalaz-concurrent_2.12/7.2.16/jars/scalaz-concurrent_2.12.jar
+[debug] 		tried /Users/hasegawahiroaki/.activator/repository/org.scalaz/scalaz-concurrent_2.12/7.2.16/srcs/scalaz-concurrent_2.12-sources.jar
+[debug] 		tried /activator-dist-1.3.12/repository/org.scalaz/scalaz-concurrent_2.12/7.2.16/jars/scalaz-concurrent_2.12.jar
+[debug] 		tried /activator-dist-1.3.12/repository/org.scalaz/scalaz-concurrent_2.12/7.2.16/srcs/scalaz-concurrent_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.16/scalaz-concurrent_2.12-7.2.16.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.16/scalaz-concurrent_2.12-7.2.16.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.16/scalaz-concurrent_2.12-7.2.16.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.16/scalaz-concurrent_2.12-7.2.16.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.16/scalaz-concurrent_2.12-7.2.16.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-concurrent_2.12;7.2.16!scalaz-concurrent_2.12.jar (1797ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.16/scalaz-concurrent_2.12-7.2.16-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.16/scalaz-concurrent_2.12-7.2.16-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.16/scalaz-concurrent_2.12-7.2.16-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.16/scalaz-concurrent_2.12-7.2.16-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.16/scalaz-concurrent_2.12-7.2.16-sources.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-concurrent_2.12;7.2.16!scalaz-concurrent_2.12.jar(src) (782ms)
+[debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.12;1.12.6!scalacheck_2.12.jar
+[debug] 		tried /Users/hasegawahiroaki/.ivy2/local/org.scalacheck/scalacheck_2.12/1.12.6/srcs/scalacheck_2.12-sources.jar
+[debug] 		tried /Users/hasegawahiroaki/.activator/repository/org.scalacheck/scalacheck_2.12/1.12.6/srcs/scalacheck_2.12-sources.jar
+[debug] 		tried /activator-dist-1.3.12/repository/org.scalacheck/scalacheck_2.12/1.12.6/srcs/scalacheck_2.12-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.12.6/scalacheck_2.12-1.12.6-sources.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.12.6/scalacheck_2.12-1.12.6-sources.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.12.6/scalacheck_2.12-1.12.6-sources.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.12.6/scalacheck_2.12-1.12.6-sources.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.12/1.12.6/scalacheck_2.12-1.12.6-sources.jar
+[info] 	[SUCCESSFUL ] org.scalacheck#scalacheck_2.12;1.12.6!scalacheck_2.12.jar(src) (1585ms)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.2!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.2!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.2!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.3!jline.jar(src)
-[debug] :: resolution report :: resolve 775ms :: artifacts dl 9337ms
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	::              FAILED DOWNLOADS            ::
-[warn] 	:: ^ see resolution messages for details  ^ ::
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	:: org.apache.poi#poi-ooxml-schemas;3.17!poi-ooxml-schemas.jar(src)
-[warn] 	:: org.apache.xmlbeans#xmlbeans;2.6.0!xmlbeans.jar(src)
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[debug] :: resolution report :: resolve 1348ms :: artifacts dl 53048ms
 [debug] 	report for default#scalatoolbox$sources_2.12;1.0 compile produced in /Users/hasegawahiroaki/ScalaJupyter/ScalaToolBox/target/resolution-cache/reports/default-scalatoolbox$sources_2.12-compile.xml
 [debug] 	report for default#scalatoolbox$sources_2.12;1.0 runtime produced in /Users/hasegawahiroaki/ScalaJupyter/ScalaToolBox/target/resolution-cache/reports/default-scalatoolbox$sources_2.12-runtime.xml
 [debug] 	report for default#scalatoolbox$sources_2.12;1.0 test produced in /Users/hasegawahiroaki/ScalaJupyter/ScalaToolBox/target/resolution-cache/reports/default-scalatoolbox$sources_2.12-test.xml
@@ -693,4 +724,4 @@
 [debug] 	report for default#scalatoolbox$sources_2.12;1.0 docs produced in /Users/hasegawahiroaki/ScalaJupyter/ScalaToolBox/target/resolution-cache/reports/default-scalatoolbox$sources_2.12-docs.xml
 [debug] 	report for default#scalatoolbox$sources_2.12;1.0 pom produced in /Users/hasegawahiroaki/ScalaJupyter/ScalaToolBox/target/resolution-cache/reports/default-scalatoolbox$sources_2.12-pom.xml
 [debug] 	report for default#scalatoolbox$sources_2.12;1.0 scala-tool produced in /Users/hasegawahiroaki/ScalaJupyter/ScalaToolBox/target/resolution-cache/reports/default-scalatoolbox$sources_2.12-scala-tool.xml
-[debug] 	resolve done (775ms resolve - 9337ms download)
+[debug] 	resolve done (1348ms resolve - 53048ms download)

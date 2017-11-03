@@ -1,7 +1,4 @@
-sbt.ResolveException: unresolved dependency: org.scalaz#scalaz-core_2.12;7.1.0: not found
-unresolved dependency: org.scalaz#scalaz-effect_2.12;7.1.0: not found
-unresolved dependency: org.scalaz#scalaz-typelevel_2.12;7.1.0: not found
-unresolved dependency: org.scalaz#scalaz-scalacheck-binding_2.12;7.1.0: not found
+sbt.ResolveException: unresolved dependency: org.scalaz#scalaz-typelevel_2.12;7.2.16: not found
 	at sbt.IvyActions$.sbt$IvyActions$$resolve(IvyActions.scala:294)
 	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:191)
 	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:168)
@@ -52,7 +49,4 @@ unresolved dependency: org.scalaz#scalaz-scalacheck-binding_2.12;7.1.0: not foun
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-[error] (*:ssExtractDependencies) sbt.ResolveException: unresolved dependency: org.scalaz#scalaz-core_2.12;7.1.0: not found
-[error] unresolved dependency: org.scalaz#scalaz-effect_2.12;7.1.0: not found
-[error] unresolved dependency: org.scalaz#scalaz-typelevel_2.12;7.1.0: not found
-[error] unresolved dependency: org.scalaz#scalaz-scalacheck-binding_2.12;7.1.0: not found
+[error] (*:ssExtractDependencies) sbt.ResolveException: unresolved dependency: org.scalaz#scalaz-typelevel_2.12;7.2.16: not found
