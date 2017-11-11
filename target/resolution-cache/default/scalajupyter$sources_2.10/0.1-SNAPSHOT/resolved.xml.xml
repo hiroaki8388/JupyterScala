@@ -4,7 +4,7 @@
 		module="scalajupyter$sources_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171105154450"
+		publication="20171111162228"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
