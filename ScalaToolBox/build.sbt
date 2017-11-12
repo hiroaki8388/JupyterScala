@@ -16,5 +16,11 @@ libraryDependencies++=Seq(
   // ScaalikeJDBC
 "org.scalikejdbc" %% "scalikejdbc" % "3.0.0",
 "ch.qos.logback" % "logback-classic" % "1.2.3",
-"com.h2database" % "h2" % "1.4.195")
+  "org.scalikejdbc" %% "scalikejdbc-config" % "3.0.0",
+"com.h2database" % "h2" % "1.4.195",
+// Akka
+//"org.json4s" %% "json4s-native" % "3.6.0",
+"org.scalaj" %% "scalaj-http" % "2.3.0",
+"com.typesafe.akka" %% "akka-actor" % "2.5.6"
+)
 

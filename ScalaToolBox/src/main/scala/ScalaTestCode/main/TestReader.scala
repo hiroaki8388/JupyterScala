@@ -33,23 +33,23 @@ object Reader {
 
 
 }
-
-trait Client[A] {
-  def execute(commend: String): A
-}
-
-// TODO HTTPとDBのClientを統一できないか考える
-trait DBClient extends Client[Unit]
-
-trait UseDBClient {
-  val dbClient: DBClient
-}
-
-trait HTTPClient extends Client[String]
-
-trait UseHTTPClient {
-  val httpClient: HTTPClient
-}
+//
+//trait Client[A] {
+//  def execute(commend: String): A
+//}
+//
+//// TODO HTTPとDBのClientを統一できないか考える
+//trait DBClient extends Client[Unit]
+//
+//trait UseDBClient {
+//  val dbClient: DBClient
+//}
+//
+//trait HTTPClient extends Client[String]
+//
+//trait UseHTTPClient {
+//  val httpClient: HTTPClient
+//}
 
 
 

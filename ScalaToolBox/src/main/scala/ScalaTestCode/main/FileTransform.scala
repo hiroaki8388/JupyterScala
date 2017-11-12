@@ -1,7 +1,6 @@
 package ScalaTestCode.main
 
 import ScalaTestCode.Constant._
-import ScalaTestCode.Config
 
 import scala.io.Source
 import scala.util.Try
